@@ -1,0 +1,29 @@
+{
+  "verified_utc": "2026-10-22T08:58:17.509445+00:00",
+  "tests_passed": 29,
+  "latest_run": {
+    "streams": {
+      "btcusdt@depth20@100ms": 282,
+      "btcusdt@trade": 718,
+      "btcusdt@kline_1m": 14
+    },
+    "trading_enabled": false,
+    "wallets": [
+      "primary"
+    ],
+    "paper_trades": 0
+  },
+  "v2_ledgers_reconcile": true,
+  "paper_trading_not_deployed": true,
+  "dot_not_deployed": true,
+  "source_hashes": {
+    "lab/__init__.py": "18851cd11132bd9009a5b2cbabc75ce04d8690e0a3875f7bfbea8bdf1a39b940",
+    "lab/__main__.py": "1a322d1bb652a605fee4fb05050a072a3158991ee79e69e51672f58a9172b140",
+    "lab/core.py": "d6f8ccc3f2fcc03be2871b1229f3972d50405c721ae71be061d12146c2470ac0",
+    "lab/diagnose.py": "5977aa77e4490fc198778c624ae7c05da12c2db05ecc9f28baede8ba44e06918",
+    "lab/live.py": "9b01ad86262a3287c01a3c9a5257b4facd2d4a57664668b690b51929ddabd3a7",
+    "lab/research.py": "9d5b9ad1757633b7d61fa7c3a5bb76a29a8e7ddc52854755d0f0f1772b2a6b7a",
+    "lab/supervisor.py": "5a274fd47906654011d71a2a9dcd0c8e483a001a2f465dfffe5eeca82ecd8d9a",
+    "lab/train_v2.py": "cec7b16215a060ae5bbf080d3baa0745195f8907cd50fffbf12572fc09cdea86"
+  }
+}
