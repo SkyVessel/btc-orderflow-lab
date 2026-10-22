@@ -1,0 +1,2338 @@
+{
+  "kind": "historical_bar_replay_not_real_profit",
+  "quote_currency": "USDT",
+  "config_hash": "641a2dce2a5294e2ca2f3f966845fff5f48ef4e2195d1c35b385ebbf66513351",
+  "data": {
+    "source": "Binance public REST klines",
+    "start_ms": 1787443200000,
+    "end_ms": 1792627200000,
+    "interval": "1m",
+    "symbol": "BTCUSDT",
+    "rows": 86400,
+    "snapshots": [
+      {
+        "file": "bars-1787443200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787443200000&endTime=1787503199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:17:56.930714+00:00",
+        "sha256": "e0755ca0ffe1d4f97a2d01016ecd819da1c7e22a8507232e0f85aa6b86b9b124",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787503200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787503200000&endTime=1787563199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:17:56.922169+00:00",
+        "sha256": "a1f9f5e2b4f048ba939e20e80a411d823045a234a38482972b51ea46490d6666",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787563200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787563200000&endTime=1787623199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:17:56.920653+00:00",
+        "sha256": "d650b1f305d979e9f2a5ce7a3edee8457acdfaed59d1f750ad25b1745ee085ea",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787623200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787623200000&endTime=1787683199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:17:56.918859+00:00",
+        "sha256": "059bbca28b8bc76957cb2956adf3106d03729eea741e622be0bfccbdb52b5aa8",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787683200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787683200000&endTime=1787743199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:02.033979+00:00",
+        "sha256": "a97dcc99ddfbd2bbcd83b81f0f10cdd79be50593d2d805d43350e9ca5c389bd7",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787743200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787743200000&endTime=1787803199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:02.041491+00:00",
+        "sha256": "4f665f6552df7eb6b8292ba38622a63abcd292b1c9ee1f6449fc7cfad4acef15",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787803200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787803200000&endTime=1787863199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:02.032461+00:00",
+        "sha256": "aad61794100d2c4b3f717ce62efec103ddc6a53c2d0ce932df31620411d4e347",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787863200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787863200000&endTime=1787923199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:02.038790+00:00",
+        "sha256": "bd4a275a3fd39ae9039e78eab26f6f12d41280c6d57abace245665a6b60e66bf",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787923200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787923200000&endTime=1787983199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:06.508665+00:00",
+        "sha256": "a3152a8b1a0550b7d154618ba4883aa1000024fdf0e5a5a1cf7c74b2c60d24db",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1787983200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1787983200000&endTime=1788043199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:06.194537+00:00",
+        "sha256": "0c99570b2ba6d805582f9f8d54664812c6147d027665a245b1a48314570e0990",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788043200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788043200000&endTime=1788103199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:06.199664+00:00",
+        "sha256": "60c7c0e86c1b832e35ed5f59e9ad58a95974581c5a8a58743892e395dc144427",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788103200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788103200000&endTime=1788163199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:06.197957+00:00",
+        "sha256": "c7a2090dbe91c3da06854f9f412641bbb5e05b8d254ffcf54a9d36eb41369dca",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788163200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788163200000&endTime=1788223199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:09.981217+00:00",
+        "sha256": "b574b562ac85768b41851db01db96af304bf2df9736ed230878b5247c941666c",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788223200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788223200000&endTime=1788283199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:09.871743+00:00",
+        "sha256": "869b51c140b21f4c1d565ea446f6017889d777fbd8c63b5084cde7181c895dbe",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788283200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788283200000&endTime=1788343199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:09.849287+00:00",
+        "sha256": "e401b7c727d87db9e15ae8d10746064b7e9f0a6b1cee9c2bc8e539c5f58549b4",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788343200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788343200000&endTime=1788403199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:09.967252+00:00",
+        "sha256": "5a5ef5256576c37e72f5a129ca828450a9eb1097e9f96513138e32eb2bc43edc",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788403200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788403200000&endTime=1788463199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:11.801022+00:00",
+        "sha256": "c8e50b0984645d81db4013e702ade5c03248357f86debf4a93f31d0aa113b2bb",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788463200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788463200000&endTime=1788523199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:11.822912+00:00",
+        "sha256": "b25680034cec336ee3eb1af94768fbd242f208e5d67b6c75c2910ec0d47e4111",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788523200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788523200000&endTime=1788583199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:11.824048+00:00",
+        "sha256": "9ef294dc4f00ec2c5a109dfd66bda244c49543e36553ccb83aa7b433b6c47487",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788583200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788583200000&endTime=1788643199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:11.824928+00:00",
+        "sha256": "13688109b72b987f433f85f6f7506b8399eff47eeefe2f8ee083d297220e6140",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788643200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788643200000&endTime=1788703199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:16.839035+00:00",
+        "sha256": "eb97e14da642eef46582c0f9e3609af0c8780c0d7c0a869e2d30a4834e8572e5",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788703200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788703200000&endTime=1788763199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:16.871439+00:00",
+        "sha256": "f5567c67ca5161b6d1120a465ddf0b3903900cd2461034b193e20094ad4071c7",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788763200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788763200000&endTime=1788823199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:13.609998+00:00",
+        "sha256": "2039e17b267940c021a2ac2601e4363a876cf51a08f50b0802a41464bc9e9be2",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788823200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788823200000&endTime=1788883199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:18.165556+00:00",
+        "sha256": "2ce4886384d9e76622aaa893458d2562363a0099b92fcd668b6408df9ae14bff",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788883200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788883200000&endTime=1788943199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:22.138300+00:00",
+        "sha256": "4660c731107b378b727420ef9af2de38e15cf99e0278f7860ded95aa12b041f7",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1788943200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1788943200000&endTime=1789003199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:21.165315+00:00",
+        "sha256": "ce8e0571a97d9a768648191b3a9df0e82b9f7be3467a012ea72c166f95fe823f",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789003200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789003200000&endTime=1789063199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:21.794641+00:00",
+        "sha256": "1a00464f81fbdf154cd68e0fc211a7c71e6700a28419bbb30dc89c1cb578d62e",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789063200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789063200000&endTime=1789123199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:21.828209+00:00",
+        "sha256": "a6cc8250b782db379fb980d497c19718346f5d659fd690df1d2271f943b26fb0",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789123200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789123200000&endTime=1789183199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:43.630730+00:00",
+        "sha256": "9d6b0299c831439b4a592baba66d21939d115733acf5480dd36a108b3097263f",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789183200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789183200000&endTime=1789243199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:44.764810+00:00",
+        "sha256": "bf37758911985bde166c17a9f757cb450f073227d84350e72bed8ec41d6b7f95",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789243200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789243200000&endTime=1789303199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:44.764196+00:00",
+        "sha256": "3696593a27ac8494dca53cbc55a81a253dda79a2fbc36faa6224ac37d5288a04",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789303200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789303200000&endTime=1789363199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:44.786206+00:00",
+        "sha256": "8718ab17575c40e8127ba1f1459200f10d2700497f5f0161892321a9b80031eb",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789363200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789363200000&endTime=1789423199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:47.677235+00:00",
+        "sha256": "9f997e33660065c6c9309d42025e7ec09d74cfc2bf4eb34b078b638cac190fe9",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789423200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789423200000&endTime=1789483199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:58.756297+00:00",
+        "sha256": "4c1c65ada1a71847d12da88a794fb25a86856c76d23587d8e64b6f1c32cf8c44",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789483200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789483200000&endTime=1789543199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:58.950136+00:00",
+        "sha256": "d7e83f07753a998495c1097a4df702598428a252b9aca76e08c4fd919d092f87",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789543200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789543200000&endTime=1789603199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:18:58.862223+00:00",
+        "sha256": "1f5cf4509eed9a8359fb4ca375c386cae014025c50de73b94dc9e10ffa337a7a",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789603200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789603200000&endTime=1789663199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:09.077877+00:00",
+        "sha256": "390a8f49622c6a2ac4c0806c4e8d1de6a3d676a014cd75395b1f3b7262186d4a",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789663200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789663200000&endTime=1789723199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:02.202024+00:00",
+        "sha256": "dcf0f075aacf979f3c192dcea670fce985dcfbba9726b440e642591bf4c21ca1",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789723200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789723200000&endTime=1789783199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:02.694514+00:00",
+        "sha256": "9502f4c8b010d6cf579c6c86548df5a60ba326fb4a2ffe6ee0f20cc68d537d1a",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789783200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789783200000&endTime=1789843199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:02.887675+00:00",
+        "sha256": "90be2f730394881905142c9d47cde398feeb01e9a08097920523c4f19c6e3cb4",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789843200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789843200000&endTime=1789903199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:09.116489+00:00",
+        "sha256": "a6d450b8f27d2f339e4af2a21612b1e108c026d65a7bc2eb28061985231ac589",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789903200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789903200000&endTime=1789963199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:09.148997+00:00",
+        "sha256": "b0c20d40656ae7bb64c13cecee51f776fb75a30b5b07da7b82abca54a462f439",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1789963200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1789963200000&endTime=1790023199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:09.216405+00:00",
+        "sha256": "9c923ffd9c12191dd315b710335493863bca6b2a4514dbe108e0dca0f39728c1",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790023200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790023200000&endTime=1790083199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:12.810698+00:00",
+        "sha256": "d5b9821c28fd4fc02f74712010890f2d316c1e8faf7702224fe25b76d0653c20",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790083200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790083200000&endTime=1790143199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:12.812959+00:00",
+        "sha256": "c0027f4a9eacee85535725a4c5fad5008c8c4c1436f5ad30495c9cd25402f726",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790143200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790143200000&endTime=1790203199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:12.805615+00:00",
+        "sha256": "af2a09f480f538b6b2e1466e579bad1879b89234b4a40ac1f388b6cad8d1693f",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790203200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790203200000&endTime=1790263199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:12.833199+00:00",
+        "sha256": "1c1dcceb5e7010659083fd7a002870986ebeb815bdcd7e3276f79da324a34e50",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790263200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790263200000&endTime=1790323199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:14.060541+00:00",
+        "sha256": "5a5133087657bc1f116bcb09d5675b4e56708d6162ae5a150b8c98b73fff9185",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790323200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790323200000&endTime=1790383199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:14.066738+00:00",
+        "sha256": "2eaa6e7e51aae55d5b478aa937510d2aa0c92efecd430b7add6219f4331b7312",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790383200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790383200000&endTime=1790443199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:14.064879+00:00",
+        "sha256": "05ff8b6a67bd6b8db519c63d232d76af81a48a7a42cea978c9ee25250404e2fb",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790443200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790443200000&endTime=1790503199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:14.062315+00:00",
+        "sha256": "622fac10c95a034118be295d585c1c05e5a58bb22c0a997aa0add219f0ff710d",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790503200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790503200000&endTime=1790563199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:18.806700+00:00",
+        "sha256": "36465d3f4221729ce632b8c30d9fc42fa07a7de6338906c98232cfe42880484a",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790563200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790563200000&endTime=1790623199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:18.807991+00:00",
+        "sha256": "727e5cde3d5cd7832f8bf82505f8c9fb0d616334b37a4cd500643123c56d646f",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790623200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790623200000&endTime=1790683199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:18.805334+00:00",
+        "sha256": "d981e8df32ab70ea0f68021b63d6905c227f17c5c4ed1732b3ffd1133cd1c8a0",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790683200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790683200000&endTime=1790743199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:18.783683+00:00",
+        "sha256": "d8195cb9840384571a44e20e55be81678ea8e87014492793b8b05ef59169990d",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790743200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790743200000&endTime=1790803199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:21.158679+00:00",
+        "sha256": "ab41838181a09df1b99c7e5019bb31c8c492caa1e2e2eebde6f56d4b53666ca8",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790803200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790803200000&endTime=1790863199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:20.679460+00:00",
+        "sha256": "60714db131c621b1c18748d78b3066621dc2a6ec44d346ba9f53d7e762ccf392",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790863200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790863200000&endTime=1790923199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:20.670160+00:00",
+        "sha256": "4644118e2ab79b363bd18b1bae6894078d2bc9e26aaf07e3919bf3fd1b62f594",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790923200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790923200000&endTime=1790983199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:20.688754+00:00",
+        "sha256": "cd3f8e2a008fb957b032be17351392ec546af1ca555f1b4422b958efc018151e",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1790983200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1790983200000&endTime=1791043199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:22.672898+00:00",
+        "sha256": "2a906747a4aa8370e3790cf06b17151c1ffff8e8afffeb31ae7e454e2632985d",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791043200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791043200000&endTime=1791103199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:22.686131+00:00",
+        "sha256": "fce9ecc9b3d1de4852e64f9a8f48795835dbd56d9fff39c34e160596026a67ab",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791103200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791103200000&endTime=1791163199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:22.701153+00:00",
+        "sha256": "0a6d0d8114270122fb99afc43e35cef19f3e9847d6740108c9305a4ad55ecdf1",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791163200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791163200000&endTime=1791223199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:24.036873+00:00",
+        "sha256": "101202bc5936e651b45a432695a161c6cc1e65308d750fb394037165b5da581a",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791223200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791223200000&endTime=1791283199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:32.198081+00:00",
+        "sha256": "f6a3ff2f6de3e77f4a243a45801915117be6acd2e042256b8b3ce56af707e51a",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791283200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791283200000&endTime=1791343199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:31.884402+00:00",
+        "sha256": "5116136fde056382a3aa8aa4bab5e3f98eb3453572aee8e0854af91af26902ef",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791343200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791343200000&endTime=1791403199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:34.524006+00:00",
+        "sha256": "e972e9b3c807f97c897054d0300bf533df6396eb54f3d81113e0cf1c220a6fec",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791403200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791403200000&endTime=1791463199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:34.326274+00:00",
+        "sha256": "48090011fac879244c239ea2b8341b3af1a28fef1d5be9c1e161c44d092801fb",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791463200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791463200000&endTime=1791523199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:35.791722+00:00",
+        "sha256": "29b6b1a92fa36491e7f9e7f6b854c176df40f97e98c3e1598492c92900f2e68e",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791523200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791523200000&endTime=1791583199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:35.851223+00:00",
+        "sha256": "c1918600592794d2a52c29cd7b3fee08f66b8941c25b5d12e22f941e5142ee98",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791583200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791583200000&endTime=1791643199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:36.630152+00:00",
+        "sha256": "0cd8121523207a478edb935c0b26f93f35fde9375e2783f01682f97a65faef06",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791643200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791643200000&endTime=1791703199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:36.617684+00:00",
+        "sha256": "1f3dafd66474e323707bc7b156111fcb5b907619b440a0f0a4756c3e04c64011",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791703200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791703200000&endTime=1791763199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:38.071588+00:00",
+        "sha256": "45051ffbb69915a56d983e3a4a51e4ba483e4c3a95699163d525787c1f742da5",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791763200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791763200000&endTime=1791823199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:38.073880+00:00",
+        "sha256": "8b526b2bbc4a68a50002ceb6a6e3c421d511601e842f213fc51263fb7908ade0",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791823200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791823200000&endTime=1791883199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:39.467279+00:00",
+        "sha256": "6997cb214fcd8b0a4b98e007209e596a0c2a4795be45959337625e55d36308e5",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791883200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791883200000&endTime=1791943199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:39.479301+00:00",
+        "sha256": "47c18804673d6a24d3f03585b3e932bfb6e5c1d9edf7503defdf300505b20078",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1791943200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1791943200000&endTime=1792003199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:40.447772+00:00",
+        "sha256": "ebb49ee4f57b893cfe306844b9392d80ffd69399fefafa0a2697f1c402e08308",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792003200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792003200000&endTime=1792063199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:40.465427+00:00",
+        "sha256": "4f6fd0e0f3837feb34a6997fc40325085dab0cbfb4e6a47191900629c15d7902",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792063200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792063200000&endTime=1792123199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:41.383746+00:00",
+        "sha256": "869c596a22b75d3120bd42b0eb189fc8e2b72d160248ca17de9df6a34ca0a757",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792123200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792123200000&endTime=1792183199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:41.381225+00:00",
+        "sha256": "421753c68a03ec46e41e52566be0c6a3c9ca261f7ae6c0374c635cad05471ee9",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792183200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792183200000&endTime=1792243199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:42.157861+00:00",
+        "sha256": "8fc6aca638938af2fcf4fb80da2838964e89ec34018ac967b1d011a3a3873f11",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792243200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792243200000&endTime=1792303199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:42.248771+00:00",
+        "sha256": "5193e155fcc13aed31eefd2bd00ac257a2112558c95ea59effab64eb29aa32e8",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792303200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792303200000&endTime=1792363199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:43.402226+00:00",
+        "sha256": "9a50747ce6f52bea3b30d8be136d196fdf84faa52c3a25093d70fa9668204df1",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792363200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792363200000&endTime=1792423199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:43.403052+00:00",
+        "sha256": "2680cd8654d9bc6a1199fa9882aa62d5478a7bcae0cc273d283830dfb84a9054",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792423200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792423200000&endTime=1792483199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:44.231605+00:00",
+        "sha256": "00571b9bd713d542b4e141dfe160c9f2f424f6c38271ef622157c55c2182e651",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792483200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792483200000&endTime=1792543199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:44.187833+00:00",
+        "sha256": "3bee48863578b71e2cb6b93ebadfe9b67c6814405c5fb9db7912d4e4d7d32141",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792543200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792543200000&endTime=1792603199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:47.581362+00:00",
+        "sha256": "00d7903e3761052d0a854c142b4d9299e1564b192dd0233fd724897ed5609a5f",
+        "rows": 1000
+      },
+      {
+        "file": "bars-1792603200000.json",
+        "url": "https://data-api.binance.vision/api/v3/klines?symbol=BTCUSDT&interval=1m&startTime=1792603200000&endTime=1792627199999&limit=1000",
+        "retrieved_utc": "2026-10-22T08:19:46.293490+00:00",
+        "sha256": "44468553635c7c515745e57da6889365a6e8f4141397d2a1900a1df862c44165",
+        "rows": 400
+      }
+    ],
+    "caveat": "Historical aggregated taker volume, no historical L2 or individual big trades"
+  },
+  "training_end_ms": 1790035200000,
+  "validation_end_ms": 1791331200000,
+  "test_end_ms": 1792627200000,
+  "all_candidate_count": 2797,
+  "validation": {
+    "breakout": {
+      "trades": 0,
+      "net_pnl": 0.0,
+      "return_fraction": 0.0,
+      "fees": 0,
+      "profit_factor": null,
+      "realized_drawdown": 0,
+      "daily_pnl": {
+        "2026-09-22": 0.0,
+        "2026-09-23": 0.0,
+        "2026-09-24": 0.0,
+        "2026-09-25": 0.0,
+        "2026-09-26": 0.0,
+        "2026-09-27": 0.0,
+        "2026-09-28": 0.0,
+        "2026-09-29": 0.0,
+        "2026-09-30": 0.0,
+        "2026-10-01": 0.0,
+        "2026-10-02": 0.0,
+        "2026-10-03": 0.0,
+        "2026-10-04": 0.0,
+        "2026-10-05": 0.0,
+        "2026-10-06": 0.0
+      },
+      "mean_daily_pnl_ci95": [
+        0.0,
+        0.0
+      ],
+      "brier": null,
+      "ledger": []
+    },
+    "flow_pullback": {
+      "trades": 0,
+      "net_pnl": 0.0,
+      "return_fraction": 0.0,
+      "fees": 0,
+      "profit_factor": null,
+      "realized_drawdown": 0,
+      "daily_pnl": {
+        "2026-09-22": 0.0,
+        "2026-09-23": 0.0,
+        "2026-09-24": 0.0,
+        "2026-09-25": 0.0,
+        "2026-09-26": 0.0,
+        "2026-09-27": 0.0,
+        "2026-09-28": 0.0,
+        "2026-09-29": 0.0,
+        "2026-09-30": 0.0,
+        "2026-10-01": 0.0,
+        "2026-10-02": 0.0,
+        "2026-10-03": 0.0,
+        "2026-10-04": 0.0,
+        "2026-10-05": 0.0,
+        "2026-10-06": 0.0
+      },
+      "mean_daily_pnl_ci95": [
+        0.0,
+        0.0
+      ],
+      "brier": null,
+      "ledger": []
+    },
+    "sweep_reclaim": {
+      "trades": 0,
+      "net_pnl": 0.0,
+      "return_fraction": 0.0,
+      "fees": 0,
+      "profit_factor": null,
+      "realized_drawdown": 0,
+      "daily_pnl": {
+        "2026-09-22": 0.0,
+        "2026-09-23": 0.0,
+        "2026-09-24": 0.0,
+        "2026-09-25": 0.0,
+        "2026-09-26": 0.0,
+        "2026-09-27": 0.0,
+        "2026-09-28": 0.0,
+        "2026-09-29": 0.0,
+        "2026-09-30": 0.0,
+        "2026-10-01": 0.0,
+        "2026-10-02": 0.0,
+        "2026-10-03": 0.0,
+        "2026-10-04": 0.0,
+        "2026-10-05": 0.0,
+        "2026-10-06": 0.0
+      },
+      "mean_daily_pnl_ci95": [
+        0.0,
+        0.0
+      ],
+      "brier": null,
+      "ledger": []
+    }
+  },
+  "selected": "breakout",
+  "test": {
+    "trades": 0,
+    "net_pnl": 0.0,
+    "return_fraction": 0.0,
+    "fees": 0,
+    "profit_factor": null,
+    "realized_drawdown": 0,
+    "daily_pnl": {
+      "2026-10-07": 0.0,
+      "2026-10-08": 0.0,
+      "2026-10-09": 0.0,
+      "2026-10-10": 0.0,
+      "2026-10-11": 0.0,
+      "2026-10-12": 0.0,
+      "2026-10-13": 0.0,
+      "2026-10-14": 0.0,
+      "2026-10-15": 0.0,
+      "2026-10-16": 0.0,
+      "2026-10-17": 0.0,
+      "2026-10-18": 0.0,
+      "2026-10-19": 0.0,
+      "2026-10-20": 0.0,
+      "2026-10-21": 0.0
+    },
+    "mean_daily_pnl_ci95": [
+      0.0,
+      0.0
+    ],
+    "brier": null,
+    "ledger": []
+  },
+  "stress": {
+    "trades": 0,
+    "net_pnl": 0.0,
+    "return_fraction": 0.0,
+    "fees": 0,
+    "profit_factor": null,
+    "realized_drawdown": 0,
+    "daily_pnl": {
+      "2026-10-07": 0.0,
+      "2026-10-08": 0.0,
+      "2026-10-09": 0.0,
+      "2026-10-10": 0.0,
+      "2026-10-11": 0.0,
+      "2026-10-12": 0.0,
+      "2026-10-13": 0.0,
+      "2026-10-14": 0.0,
+      "2026-10-15": 0.0,
+      "2026-10-16": 0.0,
+      "2026-10-17": 0.0,
+      "2026-10-18": 0.0,
+      "2026-10-19": 0.0,
+      "2026-10-20": 0.0,
+      "2026-10-21": 0.0
+    },
+    "mean_daily_pnl_ci95": [
+      0.0,
+      0.0
+    ],
+    "brier": null,
+    "ledger": []
+  },
+  "baseline": {
+    "trades": 60,
+    "net_pnl": -361.15994387387764,
+    "return_fraction": -0.03611599438738777,
+    "fees": 294.6613192205519,
+    "profit_factor": 0.11655958316148259,
+    "realized_drawdown": 0.03616124942669263,
+    "daily_pnl": {
+      "2026-10-07": -21.973702142400022,
+      "2026-10-08": -31.440454959809276,
+      "2026-10-09": -21.524064034548026,
+      "2026-10-10": -17.238399654066846,
+      "2026-10-11": -21.825311685210313,
+      "2026-10-12": -26.249334249652996,
+      "2026-10-13": -4.008552815312341,
+      "2026-10-14": -33.95467974077445,
+      "2026-10-15": -35.26092463625916,
+      "2026-10-16": -25.550719379050847,
+      "2026-10-17": -23.14866159306712,
+      "2026-10-18": -18.110586494882508,
+      "2026-10-19": -28.463892174712498,
+      "2026-10-20": -24.57357403992352,
+      "2026-10-21": -27.83708627420507
+    },
+    "mean_daily_pnl_ci95": [
+      -27.52146664370038,
+      -20.143535430431406
+    ],
+    "brier": 0.15111620238191428,
+    "ledger": [
+      {
+        "signal_ms": 1791342120000,
+        "exit_ms": 1791345720000,
+        "strategy": "breakout",
+        "entry": 83982.1871,
+        "exit": 84166.112589,
+        "qty": 0.02976,
+        "net_pnl": 0.46952915389539307,
+        "fees": 5.00409339874464,
+        "equity": 10000.469529153896,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791347220000,
+        "exit_ms": 1791350820000,
+        "strategy": "breakout",
+        "entry": 84199.2522,
+        "exit": 84200.742197,
+        "qty": 0.02969,
+        "net_pnl": -4.9555578227170205,
+        "fees": 4.99979583364693,
+        "equity": 9995.513971331178,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791351180000,
+        "exit_ms": 1791354780000,
+        "strategy": "breakout",
+        "entry": 84275.154964,
+        "exit": 84215.707706,
+        "qty": 0.029650000000000003,
+        "net_pnl": -6.758365277865505,
+        "fees": 4.9957540781655005,
+        "equity": 9988.755606053313,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791354960000,
+        "exit_ms": 1791357000000,
+        "strategy": "breakout",
+        "entry": 84325.279997,
+        "exit": 84131.3824481749,
+        "qty": 0.02961,
+        "net_pnl": -10.72930819571289,
+        "fees": 4.98800177500163,
+        "equity": 9978.026297857601,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791418740000,
+        "exit_ms": 1791422340000,
+        "strategy": "breakout",
+        "entry": 83373.014403,
+        "exit": 83330.9932,
+        "qty": 0.029910000000000003,
+        "net_pnl": -6.242971049135629,
+        "fees": 4.9861168674057295,
+        "equity": 9971.783326808465,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791427200000,
+        "exit_ms": 1791428640000,
+        "strategy": "breakout",
+        "entry": 83254.448844,
+        "exit": 83063.0135643281,
+        "qty": 0.02994,
+        "net_pnl": -10.711117097882122,
+        "fees": 4.979544824505343,
+        "equity": 9961.072209710583,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.18111436950146628,
+          "expected_net_return": -0.0025034175169726387,
+          "p_outcomes": {
+            "target": 0.15359731355813627,
+            "stop": 0.4414047852245697,
+            "timeout": 0.40499790121729395
+          },
+          "n": 155,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791433800000,
+        "exit_ms": 1791434400000,
+        "strategy": "breakout",
+        "entry": 82903.01344499999,
+        "exit": 82586.10606724978,
+        "qty": 0.03003,
+        "net_pnl": -14.486366812791527,
+        "fees": 4.969638258952861,
+        "equity": 9946.585842897792,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791504360000,
+        "exit_ms": 1791507960000,
+        "strategy": "breakout",
+        "entry": 81858.56020299999,
+        "exit": 81779.648743,
+        "qty": 0.03037,
+        "net_pnl": -7.3662334458896686,
+        "fees": 4.969692405690019,
+        "equity": 9939.219609451902,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791509220000,
+        "exit_ms": 1791509580000,
+        "strategy": "breakout",
+        "entry": 81917.13777100001,
+        "exit": 81728.77750440937,
+        "qty": 0.030330000000000003,
+        "net_pnl": -10.67634749599717,
+        "fees": 4.963380610303167,
+        "equity": 9928.543261955905,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791510120000,
+        "exit_ms": 1791513720000,
+        "strategy": "breakout",
+        "entry": 81932.5724,
+        "exit": 81981.548155,
+        "qty": 0.03029,
+        "net_pnl": -3.481483092661186,
+        "fees": 4.964958711610951,
+        "equity": 9925.061778863244,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791594240000,
+        "exit_ms": 1791597840000,
+        "strategy": "breakout",
+        "entry": 82619.148311,
+        "exit": 82682.267876,
+        "qty": 0.03003,
+        "net_pnl": -3.0685209911455837,
+        "fees": 4.9640015280956105,
+        "equity": 9921.993257872098,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791598320000,
+        "exit_ms": 1791601920000,
+        "strategy": "breakout",
+        "entry": 82749.757482,
+        "exit": 82575.22,
+        "qty": 0.029970000000000004,
+        "net_pnl": -10.185677910675533,
+        "fees": 4.954789575135541,
+        "equity": 9911.807579961423,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791604080000,
+        "exit_ms": 1791607680000,
+        "strategy": "breakout",
+        "entry": 82618.7782,
+        "exit": 82651.19720000001,
+        "qty": 0.029990000000000003,
+        "net_pnl": -3.9842007522457314,
+        "fees": 4.9564465622460006,
+        "equity": 9907.823379209178,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791679920000,
+        "exit_ms": 1791683520000,
+        "strategy": "breakout",
+        "entry": 83016.90760299999,
+        "exit": 83015.707814,
+        "qty": 0.029830000000000002,
+        "net_pnl": -4.988542623758844,
+        "fees": 4.952752917889109,
+        "equity": 9902.834836585418,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791684480000,
+        "exit_ms": 1791688080000,
+        "strategy": "breakout",
+        "entry": 83066.462465,
+        "exit": 83024.23525499999,
+        "qty": 0.029800000000000004,
+        "net_pnl": -6.207873650056354,
+        "fees": 4.949502792056001,
+        "equity": 9896.626962935361,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791689760000,
+        "exit_ms": 1791690780000,
+        "strategy": "breakout",
+        "entry": 83031.351935,
+        "exit": 82840.42964436066,
+        "qty": 0.029790000000000004,
+        "net_pnl": -10.628895411395114,
+        "fees": 4.941320373249154,
+        "equity": 9885.998067523966,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791764580000,
+        "exit_ms": 1791768180000,
+        "strategy": "breakout",
+        "entry": 83835.68316199999,
+        "exit": 83908.799806,
+        "qty": 0.029480000000000003,
+        "net_pnl": -2.78962869277638,
+        "fees": 4.9451073578966405,
+        "equity": 9883.208438831189,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791771360000,
+        "exit_ms": 1791774720000,
+        "strategy": "breakout",
+        "entry": 83873.364463,
+        "exit": 83680.50604875378,
+        "qty": 0.029450000000000004,
+        "net_pnl": -10.614141786122342,
+        "fees": 4.934461486571149,
+        "equity": 9872.594297045067,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.18111436950146628,
+          "expected_net_return": -0.0025034175169726387,
+          "p_outcomes": {
+            "target": 0.15359731355813627,
+            "stop": 0.4414047852245697,
+            "timeout": 0.40499790121729395
+          },
+          "n": 155,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791779100000,
+        "exit_ms": 1791780060000,
+        "strategy": "breakout",
+        "entry": 83643.375487,
+        "exit": 83952.75560425132,
+        "qty": 0.029500000000000002,
+        "net_pnl": 4.18262759172201,
+        "fees": 4.944085867191914,
+        "equity": 9876.77692463679,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "target"
+      },
+      {
+        "signal_ms": 1791781380000,
+        "exit_ms": 1791782820000,
+        "strategy": "breakout",
+        "entry": 84221.728941,
+        "exit": 84028.06949747306,
+        "qty": 0.029310000000000003,
+        "net_pnl": -10.607559882006147,
+        "fees": 4.931401592231645,
+        "equity": 9866.169364754784,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791784440000,
+        "exit_ms": 1791785100000,
+        "strategy": "breakout",
+        "entry": 84073.22440299999,
+        "exit": 83879.90643080774,
+        "qty": 0.029330000000000002,
+        "net_pnl": -10.596081451754266,
+        "fees": 4.926065327355581,
+        "equity": 9855.573283303029,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791786780000,
+        "exit_ms": 1791788220000,
+        "strategy": "breakout",
+        "entry": 83955.18900299999,
+        "exit": 84265.7224560843,
+        "qty": 0.02934,
+        "net_pnl": 4.175449971284127,
+        "fees": 4.935601542209533,
+        "equity": 9859.748733274313,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "target"
+      },
+      {
+        "signal_ms": 1791849720000,
+        "exit_ms": 1791849900000,
+        "strategy": "breakout",
+        "entry": 81972.62441199999,
+        "exit": 81784.13655942703,
+        "qty": 0.030070000000000003,
+        "net_pnl": -10.591995529279664,
+        "fees": 4.924165802410811,
+        "equity": 9849.156737745034,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791853260000,
+        "exit_ms": 1791854280000,
+        "strategy": "breakout",
+        "entry": 81543.095592,
+        "exit": 82110.0736100927,
+        "qty": 0.03019,
+        "net_pnl": 12.176377188007573,
+        "fees": 4.940689178211179,
+        "equity": 9861.33311493304,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "target"
+      },
+      {
+        "signal_ms": 1791855360000,
+        "exit_ms": 1791857520000,
+        "strategy": "breakout",
+        "entry": 82247.6669,
+        "exit": 82626.81651447261,
+        "qty": 0.029970000000000004,
+        "net_pnl": 6.421825677812425,
+        "fees": 4.941288267931745,
+        "equity": 9867.754940610854,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.18111436950146628,
+          "expected_net_return": -0.0025034175169726387,
+          "p_outcomes": {
+            "target": 0.15359731355813627,
+            "stop": 0.4414047852245697,
+            "timeout": 0.40499790121729395
+          },
+          "n": 155,
+          "parent_n": 1021
+        },
+        "outcome": "target"
+      },
+      {
+        "signal_ms": 1791858300000,
+        "exit_ms": 1791858840000,
+        "strategy": "breakout",
+        "entry": 82854.85900299999,
+        "exit": 82657.17856085327,
+        "qty": 0.02977,
+        "net_pnl": -10.812240120983887,
+        "fees": 4.927293358275912,
+        "equity": 9856.94270048987,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.18111436950146628,
+          "expected_net_return": -0.0025034175169726387,
+          "p_outcomes": {
+            "target": 0.15359731355813627,
+            "stop": 0.4414047852245697,
+            "timeout": 0.40499790121729395
+          },
+          "n": 155,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791859500000,
+        "exit_ms": 1791862380000,
+        "strategy": "breakout",
+        "entry": 82912.8664,
+        "exit": 83219.54451024033,
+        "qty": 0.029720000000000003,
+        "net_pnl": 4.177018184090352,
+        "fees": 4.9374552522523425,
+        "equity": 9861.119718673961,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "target"
+      },
+      {
+        "signal_ms": 1791864240000,
+        "exit_ms": 1791867840000,
+        "strategy": "breakout",
+        "entry": 83414.796934,
+        "exit": 83399.562623,
+        "qty": 0.029550000000000003,
+        "net_pnl": -5.3795382149591395,
+        "fees": 4.929364324909351,
+        "equity": 9855.740180459003,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1791936600000,
+        "exit_ms": 1791938460000,
+        "strategy": "breakout",
+        "entry": 83341.00480299999,
+        "exit": 83649.26651156534,
+        "qty": 0.029560000000000003,
+        "net_pnl": 4.175983685133118,
+        "fees": 4.936232420058551,
+        "equity": 9859.916164144135,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "target"
+      },
+      {
+        "signal_ms": 1791941100000,
+        "exit_ms": 1791941580000,
+        "strategy": "breakout",
+        "entry": 83419.028203,
+        "exit": 83227.21448955001,
+        "qty": 0.029540000000000004,
+        "net_pnl": -10.588907104450477,
+        "fees": 4.922730009137927,
+        "equity": 9849.327257039684,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791942660000,
+        "exit_ms": 1791945180000,
+        "strategy": "breakout",
+        "entry": 83445.03600299999,
+        "exit": 83253.1624872147,
+        "qty": 0.029500000000000002,
+        "net_pnl": -10.577865571127488,
+        "fees": 4.917596855461333,
+        "equity": 9838.749391468556,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791945960000,
+        "exit_ms": 1791948660000,
+        "strategy": "breakout",
+        "entry": 83462.181145,
+        "exit": 83770.89106061913,
+        "qty": 0.029470000000000003,
+        "net_pnl": 4.169322575396454,
+        "fees": 4.9283586378995965,
+        "equity": 9842.918714043954,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "target"
+      },
+      {
+        "signal_ms": 1791948840000,
+        "exit_ms": 1791950220000,
+        "strategy": "breakout",
+        "entry": 83934.562817,
+        "exit": 83741.5636832586,
+        "qty": 0.029310000000000003,
+        "net_pnl": -10.57139187768289,
+        "fees": 4.91458726772258,
+        "equity": 9832.34732216627,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.21657434560660369,
+          "expected_net_return": -0.0022955732089443228,
+          "p_outcomes": {
+            "target": 0.14591721986433054,
+            "stop": 0.3934414335981427,
+            "timeout": 0.46064134653752675
+          },
+          "n": 34,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1791952140000,
+        "exit_ms": 1791954240000,
+        "strategy": "breakout",
+        "entry": 83801.392878,
+        "exit": 83608.69995521633,
+        "qty": 0.029330000000000002,
+        "net_pnl": -10.561821448043169,
+        "fees": 4.910138022798235,
+        "equity": 9821.785500718226,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.20473552731617248,
+          "expected_net_return": -0.0022695750298839822,
+          "p_outcomes": {
+            "target": 0.1633837559400733,
+            "stop": 0.42458115034021005,
+            "timeout": 0.41203509371971664
+          },
+          "n": 169,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792022580000,
+        "exit_ms": 1792024920000,
+        "strategy": "breakout",
+        "entry": 81758.53020299999,
+        "exit": 81570.53463865121,
+        "qty": 0.03003,
+        "net_pnl": -10.55027861458857,
+        "fees": 4.904771817194785,
+        "equity": 9811.235222103638,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.18111436950146628,
+          "expected_net_return": -0.0025034175169726387,
+          "p_outcomes": {
+            "target": 0.15359731355813627,
+            "stop": 0.4414047852245697,
+            "timeout": 0.40499790121729395
+          },
+          "n": 155,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792026060000,
+        "exit_ms": 1792026960000,
+        "strategy": "breakout",
+        "entry": 81884.558,
+        "exit": 81633.19815301152,
+        "qty": 0.02995,
+        "net_pnl": -12.425584214087946,
+        "fees": 4.897356796782695,
+        "equity": 9798.80963788955,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792027980000,
+        "exit_ms": 1792029540000,
+        "strategy": "breakout",
+        "entry": 81858.970326,
+        "exit": 81611.84415493338,
+        "qty": 0.029920000000000002,
+        "net_pnl": -12.285061807582645,
+        "fees": 4.8910467692695265,
+        "equity": 9786.524576081967,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792109100000,
+        "exit_ms": 1792112700000,
+        "strategy": "breakout",
+        "entry": 82309.945578,
+        "exit": 82321.466149,
+        "qty": 0.029720000000000003,
+        "net_pnl": -4.550454186406413,
+        "fees": 4.89284555652644,
+        "equity": 9781.97412189556,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.18111436950146628,
+          "expected_net_return": -0.0025034175169726387,
+          "p_outcomes": {
+            "target": 0.15359731355813627,
+            "stop": 0.4414047852245697,
+            "timeout": 0.40499790121729395
+          },
+          "n": 155,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792113240000,
+        "exit_ms": 1792114020000,
+        "strategy": "breakout",
+        "entry": 82424.72,
+        "exit": 82235.192598832,
+        "qty": 0.029660000000000002,
+        "net_pnl": -10.505195726324274,
+        "fees": 4.883813007681358,
+        "equity": 9771.468926169237,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792116720000,
+        "exit_ms": 1792119180000,
+        "strategy": "breakout",
+        "entry": 82179.026314,
+        "exit": 81990.0638608936,
+        "qty": 0.029720000000000003,
+        "net_pnl": -10.495069466320158,
+        "fees": 4.879105359997839,
+        "equity": 9760.973856702916,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792196280000,
+        "exit_ms": 1792198080000,
+        "strategy": "breakout",
+        "entry": 81674.75507799999,
+        "exit": 81486.95214617364,
+        "qty": 0.02987,
+        "net_pnl": -10.483313768438947,
+        "fees": 4.873640194786067,
+        "equity": 9750.490542934478,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792200360000,
+        "exit_ms": 1792203960000,
+        "strategy": "breakout",
+        "entry": 81620.948941,
+        "exit": 81485.74694,
+        "qty": 0.02986,
+        "net_pnl": -8.907497688866595,
+        "fees": 4.8703659390066605,
+        "equity": 9741.583045245612,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792205520000,
+        "exit_ms": 1792209120000,
+        "strategy": "breakout",
+        "entry": 81522.4494,
+        "exit": 81559.72474,
+        "qty": 0.02987,
+        "net_pnl": -3.7578501357615797,
+        "fees": 4.871264541561801,
+        "equity": 9737.82519510985,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792284480000,
+        "exit_ms": 1792287720000,
+        "strategy": "breakout",
+        "entry": 81545.21622799999,
+        "exit": 81846.83567378412,
+        "qty": 0.02985,
+        "net_pnl": 4.12608770738814,
+        "fees": 4.877252749268257,
+        "equity": 9741.951282817237,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "target"
+      },
+      {
+        "signal_ms": 1792290780000,
+        "exit_ms": 1792294380000,
+        "strategy": "breakout",
+        "entry": 81795.001141,
+        "exit": 81816.087808,
+        "qty": 0.02977,
+        "net_pnl": -4.242952041421851,
+        "fees": 4.87070211801173,
+        "equity": 9737.708330775815,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.18111436950146628,
+          "expected_net_return": -0.0025034175169726387,
+          "p_outcomes": {
+            "target": 0.15359731355813627,
+            "stop": 0.4414047852245697,
+            "timeout": 0.40499790121729395
+          },
+          "n": 155,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792294680000,
+        "exit_ms": 1792298280000,
+        "strategy": "breakout",
+        "entry": 81904.143874,
+        "exit": 81814.038423,
+        "qty": 0.029720000000000003,
+        "net_pnl": -7.5436383815867165,
+        "fees": 4.865704377866841,
+        "equity": 9730.164692394228,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792300440000,
+        "exit_ms": 1792302300000,
+        "strategy": "breakout",
+        "entry": 81854.318931,
+        "exit": 81666.10311005007,
+        "qty": 0.029710000000000004,
+        "net_pnl": -10.450083779262082,
+        "fees": 4.858191738839598,
+        "equity": 9719.714608614966,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792368420000,
+        "exit_ms": 1792369140000,
+        "strategy": "breakout",
+        "entry": 82187.898975,
+        "exit": 81998.9161200969,
+        "qty": 0.029560000000000003,
+        "net_pnl": -10.439695445146942,
+        "fees": 4.853362254211064,
+        "equity": 9709.274913169818,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792370160000,
+        "exit_ms": 1792373760000,
+        "strategy": "breakout",
+        "entry": 82244.67600299999,
+        "exit": 82477.2494,
+        "qty": 0.02951,
+        "net_pnl": 2.0022969268279036,
+        "fees": 4.860944018642529,
+        "equity": 9711.277210096647,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792374720000,
+        "exit_ms": 1792376640000,
+        "strategy": "breakout",
+        "entry": 82572.034181,
+        "exit": 82382.16804560421,
+        "qty": 0.029400000000000003,
+        "net_pnl": -10.431717926098298,
+        "fees": 4.849653545462164,
+        "equity": 9700.845492170549,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792377780000,
+        "exit_ms": 1792381380000,
+        "strategy": "breakout",
+        "entry": 82550.487719,
+        "exit": 82495.25399699999,
+        "qty": 0.029370000000000004,
+        "net_pnl": -6.469607849339052,
+        "fees": 4.84739343419892,
+        "equity": 9694.375884321209,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792383780000,
+        "exit_ms": 1792387380000,
+        "strategy": "breakout",
+        "entry": 82574.21483499999,
+        "exit": 82632.942678,
+        "qty": 0.02935,
+        "net_pnl": -3.1251678809561074,
+        "fees": 4.848830073006551,
+        "equity": 9691.250716440252,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792459980000,
+        "exit_ms": 1792463580000,
+        "strategy": "breakout",
+        "entry": 81591.89022599999,
+        "exit": 81672.051032,
+        "qty": 0.02969,
+        "net_pnl": -2.4673320858095917,
+        "fees": 4.84730641595002,
+        "equity": 9688.783384354443,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792464420000,
+        "exit_ms": 1792468020000,
+        "strategy": "breakout",
+        "entry": 81792.43036999999,
+        "exit": 82009.39979699999,
+        "qty": 0.02961,
+        "net_pnl": 1.5742925422252378,
+        "fees": 4.85017219124487,
+        "equity": 9690.357676896669,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792468200000,
+        "exit_ms": 1792471800000,
+        "strategy": "breakout",
+        "entry": 82116.637603,
+        "exit": 82043.3796,
+        "qty": 0.029500000000000002,
+        "net_pnl": -7.0038315959883635,
+        "fees": 4.8427205074885,
+        "equity": 9683.35384530068,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.18111436950146628,
+          "expected_net_return": -0.0025034175169726387,
+          "p_outcomes": {
+            "target": 0.15359731355813627,
+            "stop": 0.4414047852245697,
+            "timeout": 0.40499790121729395
+          },
+          "n": 155,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792477320000,
+        "exit_ms": 1792480920000,
+        "strategy": "breakout",
+        "entry": 81808.54520299999,
+        "exit": 81684.20738400001,
+        "qty": 0.02959,
+        "net_pnl": -8.516906613258694,
+        "fees": 4.83775054904933,
+        "equity": 9674.836938687422,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792484760000,
+        "exit_ms": 1792488360000,
+        "strategy": "breakout",
+        "entry": 81553.768793,
+        "exit": 81441.5602,
+        "qty": 0.029650000000000003,
+        "net_pnl": -8.15979628709211,
+        "fees": 4.832811504642451,
+        "equity": 9666.67714240033,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      },
+      {
+        "signal_ms": 1792541700000,
+        "exit_ms": 1792544460000,
+        "strategy": "breakout",
+        "entry": 83108.91519700001,
+        "exit": 82917.81455739604,
+        "qty": 0.029070000000000002,
+        "net_pnl": -10.381692627247812,
+        "fees": 4.826397033960294,
+        "equity": 9656.29544977308,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792546080000,
+        "exit_ms": 1792548840000,
+        "strategy": "breakout",
+        "entry": 82988.899203,
+        "exit": 82798.07452817261,
+        "qty": 0.02908,
+        "net_pnl": -10.370266740082753,
+        "fees": 4.8210851961025005,
+        "equity": 9645.925183032998,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "stop"
+      },
+      {
+        "signal_ms": 1792551000000,
+        "exit_ms": 1792554600000,
+        "strategy": "breakout",
+        "entry": 82863.97173599999,
+        "exit": 82786.146703,
+        "qty": 0.0291,
+        "net_pnl": -7.085126906874505,
+        "fees": 4.8204184465749,
+        "equity": 9638.840056126122,
+        "prediction": {
+          "eligible": false,
+          "reason": "cost_or_edge_rejected",
+          "p_profit": 0.17671305221487055,
+          "expected_net_return": -0.002592790080174202,
+          "p_outcomes": {
+            "target": 0.13598759864227503,
+            "stop": 0.48352245595065846,
+            "timeout": 0.3804899454070666
+          },
+          "n": 663,
+          "parent_n": 1021
+        },
+        "outcome": "timeout"
+      }
+    ]
+  },
+  "checks": {
+    "validation_net_positive": false,
+    "validation_sample": false,
+    "test_sample": false,
+    "test_net_positive": false,
+    "profit_factor": false,
+    "daily_ci_positive": false,
+    "stress_positive": false,
+    "beats_price_baseline": true,
+    "drawdown": true
+  },
+  "deploy_enabled": false,
+  "limitations": [
+    "No historical depth/queue or individual-trade-size features",
+    "Stop first if stop and target occur in the same minute",
+    "Historical spread/slippage are assumptions; live fills use snapshots",
+    "Daily bootstrap is exploratory, not proof of stationarity",
+    "Drawdown measured at exits; intratrade drawdown may be larger"
+  ]
+}

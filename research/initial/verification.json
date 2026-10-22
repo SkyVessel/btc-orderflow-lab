@@ -1,0 +1,57 @@
+{
+  "verified_utc": "2026-10-22T08:43:09.004479+00:00",
+  "unit_tests_passed": 21,
+  "historical_replay_byte_identical": true,
+  "ledger_reconciliation_passed": true,
+  "diagnostics_reproduced_tolerance": 1e-12,
+  "engineering_note": "Stress replay now consistently uses stressed prices, timing, fees and sizing. A regression test covers the correction; original report/model reproduced byte-for-byte because gated stress replay had no trades. Network checks preceded this historical-only correction.",
+  "network_checks": [
+    {
+      "run": "smoke",
+      "streams": {
+        "btcusdt@depth20@100ms": 1778,
+        "btcusdt@kline_1m": 89,
+        "btcusdt@trade": 8219
+      },
+      "elapsed_received_seconds": 178.017072265625,
+      "events": {
+        "connected": 1,
+        "connection_gap": 2,
+        "warmup": 1
+      },
+      "closed_paper_trades": 0,
+      "actual_exchange_orders": 0
+    },
+    {
+      "run": "release-check",
+      "streams": {
+        "btcusdt@depth20@100ms": 583,
+        "btcusdt@trade": 3674,
+        "btcusdt@kline_1m": 29
+      },
+      "elapsed_received_seconds": 58.19323901367188,
+      "events": {
+        "connected": 1,
+        "connection_gap": 2,
+        "warmup": 1
+      },
+      "closed_paper_trades": 0,
+      "actual_exchange_orders": 0
+    }
+  ],
+  "latest_source_hashes": {
+    "lab/__init__.py": "18851cd11132bd9009a5b2cbabc75ce04d8690e0a3875f7bfbea8bdf1a39b940",
+    "lab/__main__.py": "dc4003c1f1dcee4025df2573b4df971c9ead1cb6a1e64ace4719357e445d71a4",
+    "lab/core.py": "d6f8ccc3f2fcc03be2871b1229f3972d50405c721ae71be061d12146c2470ac0",
+    "lab/diagnose.py": "5977aa77e4490fc198778c624ae7c05da12c2db05ecc9f28baede8ba44e06918",
+    "lab/live.py": "9b5414679d0a5417dbf7757d09464c092e56a8ce345c21bd33ca2753a6ffe07e",
+    "lab/research.py": "2f80e29b3cfbe68e84196ce878fe25cfd07ed2cc5ee8c98e49e6ea6bb8f56a93",
+    "lab/supervisor.py": "5a274fd47906654011d71a2a9dcd0c8e483a001a2f465dfffe5eeca82ecd8d9a"
+  },
+  "evidence_hashes": {
+    "research/initial/config.json": "3f94262ecf12a491993bdf0aa21204c10fca8e2b2d0c5cc86dcf52a2fe8f8154",
+    "research/initial/diagnostics-summary.json": "439c5eddb38e99570309c7abc1d9ca7ffc0fb10858224cbc598824e81c07bdd2",
+    "research/initial/model.json": "299763aaf69b1550114c2f7cbf4a07bec9f976ee3011897603ed9d43eaf8a3a6",
+    "research/initial/report.json": "2a7133eef62c4e91604421254ce3bba6b37c532612e28ab35a8eb2b9e7953492"
+  }
+}

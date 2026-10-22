@@ -1,0 +1,145 @@
+{
+  "version": "btc-v0.1",
+  "config_hash": "641a2dce2a5294e2ca2f3f966845fff5f48ef4e2195d1c35b385ebbf66513351",
+  "trained_through_ms": 1790035200000,
+  "cells": {
+    "breakout|delta=1|trend=0": {
+      "n": 663,
+      "days": 30,
+      "sum_return": -1.7207051556552515,
+      "wins": 117,
+      "outcomes": {
+        "target": 90,
+        "stop": 321,
+        "timeout": 252
+      }
+    },
+    "sweep_reclaim|delta=1|trend=0": {
+      "n": 265,
+      "days": 30,
+      "sum_return": -0.6556582331957923,
+      "wins": 49,
+      "outcomes": {
+        "target": 42,
+        "stop": 132,
+        "timeout": 91
+      }
+    },
+    "breakout|delta=0|trend=0": {
+      "n": 169,
+      "days": 30,
+      "sum_return": -0.3787792115443441,
+      "wins": 35,
+      "outcomes": {
+        "target": 28,
+        "stop": 71,
+        "timeout": 70
+      }
+    },
+    "breakout|delta=1|trend=1": {
+      "n": 155,
+      "days": 29,
+      "sum_return": -0.3879275963664832,
+      "wins": 28,
+      "outcomes": {
+        "target": 24,
+        "stop": 68,
+        "timeout": 63
+      }
+    },
+    "flow_pullback|delta=1|trend=1": {
+      "n": 39,
+      "days": 18,
+      "sum_return": -0.0970900258556596,
+      "wins": 9,
+      "outcomes": {
+        "target": 7,
+        "stop": 18,
+        "timeout": 14
+      }
+    },
+    "sweep_reclaim|delta=0|trend=0": {
+      "n": 58,
+      "days": 26,
+      "sum_return": -0.1701848760834736,
+      "wins": 7,
+      "outcomes": {
+        "target": 5,
+        "stop": 32,
+        "timeout": 21
+      }
+    },
+    "breakout|delta=0|trend=1": {
+      "n": 34,
+      "days": 21,
+      "sum_return": -0.07379048417926486,
+      "wins": 8,
+      "outcomes": {
+        "target": 5,
+        "stop": 12,
+        "timeout": 17
+      }
+    },
+    "flow_pullback|delta=1|trend=0": {
+      "n": 32,
+      "days": 17,
+      "sum_return": -0.09282264553898678,
+      "wins": 4,
+      "outcomes": {
+        "target": 4,
+        "stop": 19,
+        "timeout": 9
+      }
+    }
+  },
+  "parents": {
+    "breakout": {
+      "n": 1021,
+      "days": 30,
+      "sum_return": -2.5612024477453437,
+      "wins": 188,
+      "outcomes": {
+        "target": 147,
+        "stop": 472,
+        "timeout": 402
+      }
+    },
+    "flow_pullback": {
+      "n": 71,
+      "days": 24,
+      "sum_return": -0.18991267139464638,
+      "wins": 13,
+      "outcomes": {
+        "target": 11,
+        "stop": 37,
+        "timeout": 23
+      }
+    },
+    "sweep_reclaim": {
+      "n": 323,
+      "days": 30,
+      "sum_return": -0.825843109279266,
+      "wins": 56,
+      "outcomes": {
+        "target": 47,
+        "stop": 164,
+        "timeout": 112
+      }
+    }
+  },
+  "selected": "breakout",
+  "deploy_enabled": false,
+  "checks": {
+    "validation_net_positive": false,
+    "validation_sample": false,
+    "test_sample": false,
+    "test_net_positive": false,
+    "profit_factor": false,
+    "daily_ci_positive": false,
+    "stress_positive": false,
+    "beats_price_baseline": true,
+    "drawdown": true
+  },
+  "data_hash": "c46f7df0941ed9076e4f286c3670036fd31e2bfb2c14c6e49952571770f6e1c0",
+  "evaluated_through_ms": 1792627200000
+}
