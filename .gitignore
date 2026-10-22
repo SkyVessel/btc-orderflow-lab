@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+secrets/
+runtime/
+data/
+exports/
+candidate_labels.jsonl
+diagnostics.json
+*.sqlite*
+.DS_Store
