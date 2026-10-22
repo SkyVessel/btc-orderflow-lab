@@ -1,0 +1,236 @@
+{
+  "version": "bitx-v0.1",
+  "data": {
+    "start": "2026-07-29",
+    "end": "2026-10-21",
+    "bars": 4680
+  },
+  "splits": {
+    "train": [
+      "2026-07-29",
+      "2026-09-17",
+      36
+    ],
+    "validation": [
+      "2026-09-18",
+      "2026-10-05",
+      12
+    ],
+    "test": [
+      "2026-10-06",
+      "2026-10-21",
+      12
+    ]
+  },
+  "btc_pretrain": {
+    "start": "2025-03-01",
+    "end_exclusive": "2026-07-29",
+    "samples": 1886
+  },
+  "selected": {
+    "hold_bars": 6,
+    "threshold": 0.5
+  },
+  "selected_validation": {
+    "start_equity": 10000.0,
+    "end_equity": 10004.50580365432,
+    "net_pnl": 4.505803654319607,
+    "gross_pnl": 6.500053405761719,
+    "fees": 0.39884974228668213,
+    "spread_slippage": 1.5954000091554121,
+    "days": 12,
+    "trades": 1,
+    "target_days": 0,
+    "daily_target_rate": 0.0,
+    "target_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "mean_daily_pnl": 0.37548363785996725,
+    "best_day": 4.505803654319607,
+    "worst_day": 0.0,
+    "no_trade_days": 11,
+    "max_drawdown_low_mark": 0.0010986515595901437,
+    "status": "active"
+  },
+  "test": {
+    "start_equity": 10000.0,
+    "end_equity": 10000.0,
+    "net_pnl": 0.0,
+    "gross_pnl": 0.0,
+    "fees": 0.0,
+    "spread_slippage": 0.0,
+    "days": 12,
+    "trades": 0,
+    "target_days": 0,
+    "daily_target_rate": 0.0,
+    "target_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "mean_daily_pnl": 0.0,
+    "best_day": 0.0,
+    "worst_day": 0.0,
+    "no_trade_days": 12,
+    "max_drawdown_low_mark": 0.0,
+    "status": "active"
+  },
+  "stress": {
+    "start_equity": 10000.0,
+    "end_equity": 10000.0,
+    "net_pnl": 0.0,
+    "gross_pnl": 0.0,
+    "fees": 0.0,
+    "spread_slippage": 0.0,
+    "days": 12,
+    "trades": 0,
+    "target_days": 0,
+    "daily_target_rate": 0.0,
+    "target_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "mean_daily_pnl": 0.0,
+    "best_day": 0.0,
+    "worst_day": 0.0,
+    "no_trade_days": 12,
+    "max_drawdown_low_mark": 0.0,
+    "status": "active"
+  },
+  "baseline": {
+    "start_equity": 10000.0,
+    "end_equity": 9971.309655657074,
+    "net_pnl": -28.690344342925528,
+    "gross_pnl": -8.791219711303711,
+    "fees": 3.979825207643967,
+    "spread_slippage": 15.919299423978927,
+    "days": 12,
+    "trades": 10,
+    "target_days": 0,
+    "daily_target_rate": 0.0,
+    "target_rate_wilson95": [
+      0,
+      0.2425007574992425
+    ],
+    "mean_daily_pnl": -2.390862028577127,
+    "best_day": 15.665497109890566,
+    "worst_day": -15.780504708733133,
+    "no_trade_days": 6,
+    "max_drawdown_low_mark": 0.004728034319506963,
+    "status": "active"
+  },
+  "recognition": {
+    "orderblock": {
+      "registered": 19,
+      "touched": 12,
+      "scored": 10,
+      "accepted": 1,
+      "coverage": 0.1,
+      "accepted_successes": 0,
+      "accepted_success_rate": 0.0,
+      "accepted_wilson95": [
+        0,
+        0.7934567085261071
+      ],
+      "all_region_success_rate": 0.3,
+      "classification_accuracy": 0.6,
+      "recall": 0.0,
+      "brier": 0.24057608265019473,
+      "constant_brier": 0.22294887039239003,
+      "timeout": 3,
+      "ambiguous_failures": 0,
+      "note": "Outcome-based precision, not institutional-order ground truth; Wilson interval ignores event dependence"
+    },
+    "pressure": {
+      "registered": 65,
+      "touched": 39,
+      "scored": 33,
+      "accepted": 12,
+      "coverage": 0.36363636363636365,
+      "accepted_successes": 9,
+      "accepted_success_rate": 0.75,
+      "accepted_wilson95": [
+        0.46768966087934005,
+        0.9110599603710386
+      ],
+      "all_region_success_rate": 0.5151515151515151,
+      "classification_accuracy": 0.6666666666666666,
+      "recall": 0.5294117647058824,
+      "brier": 0.19522806424162317,
+      "constant_brier": 0.2511796512687579,
+      "timeout": 9,
+      "ambiguous_failures": 0,
+      "note": "Outcome-based precision, not institutional-order ground truth; Wilson interval ignores event dependence"
+    }
+  },
+  "scratch_recognition_diagnostic": {
+    "orderblock": {
+      "registered": 19,
+      "touched": 12,
+      "scored": 10,
+      "accepted": 5,
+      "coverage": 0.5,
+      "accepted_successes": 2,
+      "accepted_success_rate": 0.4,
+      "accepted_wilson95": [
+        0.1176182311592533,
+        0.769280067791163
+      ],
+      "all_region_success_rate": 0.3,
+      "classification_accuracy": 0.6,
+      "recall": 0.6666666666666666,
+      "brier": 0.23293098045747113,
+      "constant_brier": 0.22294887039239003,
+      "timeout": 3,
+      "ambiguous_failures": 0,
+      "note": "Outcome-based precision, not institutional-order ground truth; Wilson interval ignores event dependence"
+    },
+    "pressure": {
+      "registered": 65,
+      "touched": 39,
+      "scored": 33,
+      "accepted": 8,
+      "coverage": 0.24242424242424243,
+      "accepted_successes": 6,
+      "accepted_success_rate": 0.75,
+      "accepted_wilson95": [
+        0.40926987910258916,
+        0.9285223111419724
+      ],
+      "all_region_success_rate": 0.5151515151515151,
+      "classification_accuracy": 0.6060606060606061,
+      "recall": 0.35294117647058826,
+      "brier": 0.22130155356304876,
+      "constant_brier": 0.2511796512687579,
+      "timeout": 9,
+      "ambiguous_failures": 0,
+      "note": "Outcome-based precision, not institutional-order ground truth; Wilson interval ignores event dependence"
+    }
+  },
+  "profit_gate": false,
+  "business_profit_after_all_costs": null,
+  "actual_trading_profit": null,
+  "deploy_enabled": false,
+  "model": {
+    "parameters": 2852,
+    "float32_weight_bytes": 11408,
+    "actual_weight_dtype": "float64",
+    "files_bytes": 26206
+  },
+  "runtime": {
+    "elapsed_seconds": 5.055636749835685,
+    "peak_rss_mib": 828.125
+  },
+  "limitations": [
+    "60个BITX交易日只用于初步研究，最终段12天很短；历史成交价不能确认实际可执行报价。",
+    "BTC同期行情已被旧实验研究，最终段只对本次模型参数隔离，不称为全新市场留出。",
+    "BTC预训练用USDT现货，BITX为USD杠杆ETF，存在跨市场差异；未假设精确盘中2倍关系。",
+    "区域形态与价格反应是代理定义，没有历史L2或机构订单真值；ETF主动买卖方向缺失。",
+    "5分钟K线内先后顺序未知，同时触及成功和失效线时按失败；压力区只评分，不卖空。",
+    "收益模型在BITX区域样本上监督训练；不是在线强化学习。没有部署后台进程。",
+    "本金每段独立初始10000美元，段内连续复利、不每日重置；卖出款下一交易日可用，费用预留。",
+    "每笔最多用日初权益20%，最多占已结束信号K线成交量1%，是本版固定执行假设，无单日止损。",
+    "价格为当前回溯快照，缺少历史修订版本；10月21日日线close缺失，未补写，5分钟价格完整。",
+    "最短5分钟、最长30分钟固定持仓；收益达标率包括空仓日，费用敏感性单独报告。"
+  ]
+}

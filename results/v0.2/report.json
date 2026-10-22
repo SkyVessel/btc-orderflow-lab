@@ -1,0 +1,461 @@
+{
+  "version": "bitx-v0.2",
+  "data": {
+    "sources": [
+      {
+        "file": "BITX_2y_1h.json",
+        "sha256": "6c679906bfa546daa10374f61049ce8b1a3c7efb28a1c4c1a59f6dcbc1518be6",
+        "bytes": 355784,
+        "retrieved_utc": "2026-10-22T14:04:52.901482+00:00",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+        "error": null,
+        "returned_interval": "1h",
+        "usage": "recorded"
+      },
+      {
+        "file": "BITX_since_inception_1d.json",
+        "sha256": "3bb3d3874465fe0e4caa59412d99d781c37dbec11f8e70270aee031d3c7b7464",
+        "bytes": 93441,
+        "retrieved_utc": "2026-10-22T14:05:12.089764+00:00",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?period1=1687824000&period2=1792627200&interval=1d&includePrePost=false&events=div%2Csplits",
+        "error": null,
+        "returned_interval": "1d",
+        "usage": "recorded"
+      },
+      {
+        "file": "BITX_6mo_5m_probe.json",
+        "sha256": "61436884c699ae9b00dcd09483249fe1b995ca0aa3d06f0827275fe0bff9d9f4",
+        "bytes": 205,
+        "retrieved_utc": "2026-10-22T14:03:31.329982+00:00",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?range=6mo&interval=5m&includePrePost=false&events=div%2Csplits",
+        "error": {
+          "code": "Unprocessable Entity",
+          "description": "5m data not available for startTime=1776607411 and endTime=1792677811. The requested range must be within the last 60 days."
+        },
+        "returned_interval": null,
+        "usage": "recorded"
+      },
+      {
+        "file": "BITX_max_1d.json",
+        "sha256": "42e4611547645e87852aacc55a2767260f6f4f1acb5558e613f10e118788ebaf",
+        "bytes": 21882,
+        "retrieved_utc": "2026-10-22T14:04:53.312958+00:00",
+        "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?range=max&interval=1d&includePrePost=false&events=div%2Csplits",
+        "error": null,
+        "returned_interval": "1wk",
+        "usage": "rejected_wrong_interval"
+      }
+    ],
+    "hourly_rows": 3458,
+    "hourly_sessions": 494,
+    "hourly_dates": [
+      "2024-10-22",
+      "2026-10-21"
+    ],
+    "daily_rows": 834,
+    "daily_dates": [
+      "2023-06-27",
+      "2026-10-21"
+    ],
+    "hourly_pretrain_rows": 3038,
+    "hourly_pretrain_dates": [
+      "2024-10-22",
+      "2026-07-28"
+    ],
+    "intraday_rows": 4680,
+    "intraday_dates": [
+      "2026-07-29",
+      "2026-10-21"
+    ],
+    "new_intraday_dates": 0,
+    "missing_daily_fields": [
+      {
+        "h": 18.594999313354492,
+        "o": 18.489999771118164,
+        "c": null,
+        "l": 18.260000228881836,
+        "v": 3302808,
+        "t": 1792589400,
+        "date": "2026-10-21",
+        "minute": 570,
+        "adjclose": null
+      }
+    ],
+    "discarded_partial_hour_rows": 2,
+    "max_hourly_vs_5m_relative_ohlc_error": 2.220446049250313e-16,
+    "quarantined_hourly_dates": [
+      "2024-11-29",
+      "2024-12-24",
+      "2025-07-03",
+      "2025-11-28",
+      "2025-12-24",
+      "2026-01-30",
+      "2026-02-02"
+    ],
+    "quarantined_hourly_rows": 39,
+    "reused_processed_hashes": {
+      "data/bitx_5m.csv.gz": "355f0e158420203307d7a690ede0985fa0bc01bc0cb3ac691b6afbeb983dd938",
+      "data/btc_5m.csv.gz": "c6de9b23862d111d1ea3243c5d1b78cf43cf0d94601afa3764218b7fe4426a07"
+    },
+    "note": "Hourly data only pretrains scale-normalized regions, labels use next six trading bars including overnight; never used as 5-30 minute fills. Daily data only supplies corporate-action adjustment.",
+    "point_in_time_limitation": "Yahoo current revised/adjusted vintage; no historical quote or revision archives"
+  },
+  "splits": {
+    "train": [
+      "2026-07-29",
+      "2026-09-17",
+      36
+    ],
+    "validation": [
+      "2026-09-18",
+      "2026-10-05",
+      12
+    ],
+    "test": [
+      "2026-10-06",
+      "2026-10-21",
+      12
+    ]
+  },
+  "counts": {
+    "hourly_pretraining": 192,
+    "registered_regions": 709,
+    "total_touches": 986,
+    "labelled_regions": 865,
+    "unique_labelled_regions": 422,
+    "first_touch_labels": 422,
+    "incomplete_region_labels": 121,
+    "hourly_incomplete_labels": 85,
+    "train_regions": 535,
+    "train_states": 2160,
+    "all_states": 3600,
+    "state_action_labels": 10800
+  },
+  "selected": {
+    "model": "scratch",
+    "quantile": 0.75,
+    "threshold": 0.0005879387970752492,
+    "validation_activity_passed": true,
+    "model_hashes": {
+      "hourly_pretrained_returns.npz": "9f94d783b2d8377474524c553b455fb6821500cba187fbca6da2e4be235a1f02",
+      "scratch_returns.npz": "e00c685806ae68830d99d2d80c9fdadbe25f7dcad29000589250f774a3bbe1d0",
+      "hourly_pretrained_region.npz": "3dae12544abc57fd357d4a18f660544a134173b4a0b372842294e0f868a3c34e",
+      "scratch_region.npz": "8785c9c05e6f56f5ac616d65df15346a82e138f0cba2d57fcc1f1a5daa32519a"
+    }
+  },
+  "selected_validation": {
+    "start_equity": 10000.0,
+    "end_equity": 9945.833508354212,
+    "days": 12,
+    "trades": 36,
+    "net_pnl": -54.16649164578848,
+    "gross_pnl": 64.44484519958496,
+    "fees": 23.722265306842118,
+    "friction": 94.88907153853393,
+    "target_days": 0,
+    "daily_target_rate": 0.0,
+    "mean_daily_pnl": -4.513874303815707,
+    "best_day": 44.48900177584437,
+    "worst_day": -61.91738264594642,
+    "no_trade_days": 0,
+    "low_mark_drawdown": 0.016335976342033223,
+    "forced_trades": 16,
+    "forced_net_pnl": -149.6903221861121,
+    "score_selected_net_pnl": 95.52383054032498,
+    "status": "active"
+  },
+  "test": {
+    "start_equity": 10000.0,
+    "end_equity": 9846.923435058945,
+    "days": 12,
+    "trades": 36,
+    "net_pnl": -153.07656494105504,
+    "gross_pnl": -37.87633323669491,
+    "fees": 23.040047552918015,
+    "friction": 92.16018415144515,
+    "target_days": 0,
+    "daily_target_rate": 0.0,
+    "mean_daily_pnl": -12.756380411754586,
+    "best_day": 50.312779348012555,
+    "worst_day": -29.969961974637044,
+    "no_trade_days": 0,
+    "low_mark_drawdown": 0.018160412529810703,
+    "forced_trades": 17,
+    "forced_net_pnl": -82.26143613736076,
+    "score_selected_net_pnl": -70.81512880369678,
+    "status": "active"
+  },
+  "stress": {
+    "start_equity": 10000.0,
+    "end_equity": 9733.473966113437,
+    "days": 12,
+    "trades": 36,
+    "net_pnl": -266.5260338865628,
+    "gross_pnl": -37.3402290344244,
+    "fees": 45.83716574997986,
+    "friction": 183.34863910216575,
+    "target_days": 0,
+    "daily_target_rate": 0.0,
+    "mean_daily_pnl": -22.210502823880233,
+    "best_day": 40.39516994422047,
+    "worst_day": -38.61587524922834,
+    "no_trade_days": 0,
+    "low_mark_drawdown": 0.02762961684870097,
+    "forced_trades": 17,
+    "forced_net_pnl": -136.16727617300512,
+    "score_selected_net_pnl": -130.35875771355904,
+    "status": "active"
+  },
+  "activity": {
+    "average_trades_per_day": 3.0,
+    "active_day_fraction": 1.0,
+    "passed": true
+  },
+  "region_first_touch": {
+    "orderblock": {
+      "scored": 29,
+      "accepted": 4,
+      "successes": 1,
+      "precision": 0.25,
+      "coverage": 0.13793103448275862,
+      "all_candidate_success_rate": 0.41379310344827586,
+      "brier": 0.2632800101912551,
+      "wilson95": [
+        0.045586062644636216,
+        0.6993639475573634
+      ],
+      "timeout": 9
+    },
+    "pressure": {
+      "scored": 39,
+      "accepted": 11,
+      "successes": 7,
+      "precision": 0.6363636363636364,
+      "coverage": 0.28205128205128205,
+      "all_candidate_success_rate": 0.5384615384615384,
+      "brier": 0.22189380529090527,
+      "wilson95": [
+        0.35379677689163724,
+        0.8483377638586862
+      ],
+      "timeout": 10
+    }
+  },
+  "region_all_touches": {
+    "orderblock": {
+      "scored": 57,
+      "accepted": 7,
+      "successes": 1,
+      "precision": 0.14285714285714285,
+      "coverage": 0.12280701754385964,
+      "all_candidate_success_rate": 0.3157894736842105,
+      "brier": 0.26042234031606853,
+      "wilson95": [
+        0.02567895594897479,
+        0.51313450331903
+      ],
+      "timeout": 19
+    },
+    "pressure": {
+      "scored": 66,
+      "accepted": 20,
+      "successes": 13,
+      "precision": 0.65,
+      "coverage": 0.30303030303030304,
+      "all_candidate_success_rate": 0.5,
+      "brier": 0.22813954907613754,
+      "wilson95": [
+        0.43285051021946463,
+        0.8188104521320554
+      ],
+      "timeout": 18
+    }
+  },
+  "matched_v01_regions": {
+    "orderblock": {
+      "scored": 10,
+      "accepted": 1,
+      "successes": 0,
+      "precision": 0.0,
+      "coverage": 0.1,
+      "all_candidate_success_rate": 0.3,
+      "brier": 0.23324066751138922,
+      "wilson95": [
+        0,
+        0.7934567085261071
+      ],
+      "timeout": 3
+    },
+    "pressure": {
+      "scored": 33,
+      "accepted": 8,
+      "successes": 6,
+      "precision": 0.75,
+      "coverage": 0.24242424242424243,
+      "all_candidate_success_rate": 0.5151515151515151,
+      "brier": 0.20895825200928128,
+      "wilson95": [
+        0.40926987910258916,
+        0.9285223111419724
+      ],
+      "timeout": 9
+    }
+  },
+  "baseline_fixed_schedule": {
+    "5": {
+      "start_equity": 10000.0,
+      "end_equity": 9880.713981149314,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -119.28601885068565,
+      "gross_pnl": -4.276998519897834,
+      "fees": 23.001804203024218,
+      "friction": 92.0072161277669,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -9.94050157089047,
+      "best_day": 12.24017993929374,
+      "worst_day": -27.801156101268134,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.012918098117123373,
+      "forced_trades": 0,
+      "forced_net_pnl": 0,
+      "score_selected_net_pnl": -119.2860188506852,
+      "status": "active"
+    },
+    "15": {
+      "start_equity": 10000.0,
+      "end_equity": 9843.457877832712,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -156.54212216728774,
+      "gross_pnl": -41.5729980468754,
+      "fees": 22.993826154420777,
+      "friction": 91.97529796599365,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -13.045176847273979,
+      "best_day": 42.195546228478634,
+      "worst_day": -79.11310839691032,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.017226398654342664,
+      "forced_trades": 0,
+      "forced_net_pnl": 0,
+      "score_selected_net_pnl": -156.5421221672866,
+      "status": "active"
+    },
+    "30": {
+      "start_equity": 10000.0,
+      "end_equity": 9635.44871551254,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -364.55128448745927,
+      "gross_pnl": -251.0721435546859,
+      "fees": 22.69583622086426,
+      "friction": 90.78330471190593,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -30.379273707288274,
+      "best_day": 49.52385053399121,
+      "worst_day": -108.17519765925863,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.036455128448746106,
+      "forced_trades": 0,
+      "forced_net_pnl": 0,
+      "score_selected_net_pnl": -364.55128448745484,
+      "status": "active"
+    }
+  },
+  "v01_comparison": {
+    "test": {
+      "start_equity": 10000.0,
+      "end_equity": 10000.0,
+      "net_pnl": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "spread_slippage": 0.0,
+      "days": 12,
+      "trades": 0,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.0,
+      "best_day": 0.0,
+      "worst_day": 0.0,
+      "no_trade_days": 12,
+      "max_drawdown_low_mark": 0.0,
+      "status": "active"
+    },
+    "recognition": {
+      "orderblock": {
+        "registered": 19,
+        "touched": 12,
+        "scored": 10,
+        "accepted": 1,
+        "coverage": 0.1,
+        "accepted_successes": 0,
+        "accepted_success_rate": 0.0,
+        "accepted_wilson95": [
+          0,
+          0.7934567085261071
+        ],
+        "all_region_success_rate": 0.3,
+        "classification_accuracy": 0.6,
+        "recall": 0.0,
+        "brier": 0.24057608265019473,
+        "constant_brier": 0.22294887039239003,
+        "timeout": 3,
+        "ambiguous_failures": 0,
+        "note": "Outcome-based precision, not institutional-order ground truth; Wilson interval ignores event dependence"
+      },
+      "pressure": {
+        "registered": 65,
+        "touched": 39,
+        "scored": 33,
+        "accepted": 12,
+        "coverage": 0.36363636363636365,
+        "accepted_successes": 9,
+        "accepted_success_rate": 0.75,
+        "accepted_wilson95": [
+          0.46768966087934005,
+          0.9110599603710386
+        ],
+        "all_region_success_rate": 0.5151515151515151,
+        "classification_accuracy": 0.6666666666666666,
+        "recall": 0.5294117647058824,
+        "brier": 0.19522806424162317,
+        "constant_brier": 0.2511796512687579,
+        "timeout": 9,
+        "ambiguous_failures": 0,
+        "note": "Outcome-based precision, not institutional-order ground truth; Wilson interval ignores event dependence"
+      }
+    }
+  },
+  "activity_failure": false,
+  "profit_goal_passed": false,
+  "parameters": 2852,
+  "selected_model_bytes": 26270,
+  "runtime": {
+    "seconds": 1.2527641660999507,
+    "peak_rss_mib": 190.578125
+  },
+  "business_profit_after_all_costs": null,
+  "actual_profit": null,
+  "deploy_enabled": false,
+  "limitations": [
+    "没有新增五分钟交易日；更长的小时线用于跨周期区域预训练，日线用于分红调整。",
+    "最终12天已被v0.1查看，本轮属于同日期事后比较，不是新样本外证明。",
+    "探索窗口每天要求参与，截止点可以在预测净收益为负时买入；强制探索收益独立列出。",
+    "区域可多次回踩；主准确率只计每区域第一次触碰，多次触碰仅作训练扩样和次要指标。",
+    "每边5bp交易成本是假设，没有历史可执行报价；压力情景采用同一冻结订单计划、双倍成本。",
+    "现金全额整数股，无同日卖出款复用；每段10000美元开始，段内不按天重置，无单日止损。",
+    "三个交易窗口、每笔最多三分之一本金是本版执行设定；收益对比同时列出相同资金和时点规则基准。",
+    "小时预训练标签跨最多6个交易时段内小时bar，可能跨夜；不能当成5–30分钟成交。",
+    "当前仍是监督式状态/动作收益学习，不是在线强化学习；没有实时任务。",
+    "区域成功率是数值代理定义。条件变化后新区域成功率不能直接与旧1个样本相比，因此另列旧同一批区域重评分。",
+    "AI、电费和人工未分摊，项目全成本净利润未知。"
+  ]
+}

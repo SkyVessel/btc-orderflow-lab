@@ -1,0 +1,12 @@
+{
+  "model": "scratch",
+  "quantile": 0.75,
+  "threshold": 0.0005879387970752492,
+  "validation_activity_passed": true,
+  "model_hashes": {
+    "hourly_pretrained_returns.npz": "9f94d783b2d8377474524c553b455fb6821500cba187fbca6da2e4be235a1f02",
+    "scratch_returns.npz": "e00c685806ae68830d99d2d80c9fdadbe25f7dcad29000589250f774a3bbe1d0",
+    "hourly_pretrained_region.npz": "3dae12544abc57fd357d4a18f660544a134173b4a0b372842294e0f868a3c34e",
+    "scratch_region.npz": "8785c9c05e6f56f5ac616d65df15346a82e138f0cba2d57fcc1f1a5daa32519a"
+  }
+}

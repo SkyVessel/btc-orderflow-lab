@@ -1,0 +1,100 @@
+{
+  "sources": [
+    {
+      "file": "BITX_2y_1h.json",
+      "sha256": "6c679906bfa546daa10374f61049ce8b1a3c7efb28a1c4c1a59f6dcbc1518be6",
+      "bytes": 355784,
+      "retrieved_utc": "2026-10-22T14:04:52.901482+00:00",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?range=2y&interval=1h&includePrePost=false&events=div%2Csplits",
+      "error": null,
+      "returned_interval": "1h",
+      "usage": "recorded"
+    },
+    {
+      "file": "BITX_since_inception_1d.json",
+      "sha256": "3bb3d3874465fe0e4caa59412d99d781c37dbec11f8e70270aee031d3c7b7464",
+      "bytes": 93441,
+      "retrieved_utc": "2026-10-22T14:05:12.089764+00:00",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?period1=1687824000&period2=1792627200&interval=1d&includePrePost=false&events=div%2Csplits",
+      "error": null,
+      "returned_interval": "1d",
+      "usage": "recorded"
+    },
+    {
+      "file": "BITX_6mo_5m_probe.json",
+      "sha256": "61436884c699ae9b00dcd09483249fe1b995ca0aa3d06f0827275fe0bff9d9f4",
+      "bytes": 205,
+      "retrieved_utc": "2026-10-22T14:03:31.329982+00:00",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?range=6mo&interval=5m&includePrePost=false&events=div%2Csplits",
+      "error": {
+        "code": "Unprocessable Entity",
+        "description": "5m data not available for startTime=1776607411 and endTime=1792677811. The requested range must be within the last 60 days."
+      },
+      "returned_interval": null,
+      "usage": "recorded"
+    },
+    {
+      "file": "BITX_max_1d.json",
+      "sha256": "42e4611547645e87852aacc55a2767260f6f4f1acb5558e613f10e118788ebaf",
+      "bytes": 21882,
+      "retrieved_utc": "2026-10-22T14:04:53.312958+00:00",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?range=max&interval=1d&includePrePost=false&events=div%2Csplits",
+      "error": null,
+      "returned_interval": "1wk",
+      "usage": "rejected_wrong_interval"
+    }
+  ],
+  "hourly_rows": 3458,
+  "hourly_sessions": 494,
+  "hourly_dates": [
+    "2024-10-22",
+    "2026-10-21"
+  ],
+  "daily_rows": 834,
+  "daily_dates": [
+    "2023-06-27",
+    "2026-10-21"
+  ],
+  "hourly_pretrain_rows": 3038,
+  "hourly_pretrain_dates": [
+    "2024-10-22",
+    "2026-07-28"
+  ],
+  "intraday_rows": 4680,
+  "intraday_dates": [
+    "2026-07-29",
+    "2026-10-21"
+  ],
+  "new_intraday_dates": 0,
+  "missing_daily_fields": [
+    {
+      "h": 18.594999313354492,
+      "o": 18.489999771118164,
+      "c": null,
+      "l": 18.260000228881836,
+      "v": 3302808,
+      "t": 1792589400,
+      "date": "2026-10-21",
+      "minute": 570,
+      "adjclose": null
+    }
+  ],
+  "discarded_partial_hour_rows": 2,
+  "max_hourly_vs_5m_relative_ohlc_error": 2.220446049250313e-16,
+  "quarantined_hourly_dates": [
+    "2024-11-29",
+    "2024-12-24",
+    "2025-07-03",
+    "2025-11-28",
+    "2025-12-24",
+    "2026-01-30",
+    "2026-02-02"
+  ],
+  "quarantined_hourly_rows": 39,
+  "reused_processed_hashes": {
+    "data/bitx_5m.csv.gz": "355f0e158420203307d7a690ede0985fa0bc01bc0cb3ac691b6afbeb983dd938",
+    "data/btc_5m.csv.gz": "c6de9b23862d111d1ea3243c5d1b78cf43cf0d94601afa3764218b7fe4426a07"
+  },
+  "note": "Hourly data only pretrains scale-normalized regions, labels use next six trading bars including overnight; never used as 5-30 minute fills. Daily data only supplies corporate-action adjustment.",
+  "point_in_time_limitation": "Yahoo current revised/adjusted vintage; no historical quote or revision archives"
+}

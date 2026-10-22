@@ -1,0 +1,23 @@
+{
+  "training_loss.json": "4ecd411f7accda6dba013e898378582f9c98d15ee3ce37933a8cef94bea50c18",
+  "test_daily.csv": "2a2b49fb5ee89a749e0869299d0bb4c6857cca912e2f501450882086142b5861",
+  "report.json": "9cf79638f2d47a22334b0c834017f717e6bb5dafbe6e71d0aef476a99af31ba5",
+  "features.json": "3b310597c4357b72f3114c3666fb3385fcf6f522bfac9208efe6187a98622d51",
+  "baseline_trades.csv": "60439fc217af4cb2f1e6e13db69935eba0f4d845eee5c8987ea6c7ac0c9d9f7b",
+  "REPORT.md": "9a01aeade622ff282d2a44b358ac1eb15ffeba7f6e3d7b76f306bc4d57d84d78",
+  "split_before_training.json": "e139200e06b7b7e377b4f85fd2e1337fb818f5690a7de54f66f067317f6f331e",
+  "return_model.npz": "41aa5b5707d7a01a73a09ecb8ec97faf1ef95d9e290e4ca5acef3111356a85d8",
+  "zone_model.npz": "8571eee898802d9943fec757118aa7c3a2dd81dee0b1c63ba0e33ab6f8aef859",
+  "test_trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "selection_before_test.json": "b4d55b0f68fd820401d159fa93db38c1d3912ad025148ef4f6c679ceac853d60",
+  "sample_counts.json": "c60a64ffed7dc1d44ec60d6ed57dd73e2e7fcc2827eea7fa55834bbd60a538e0",
+  "test_predictions.csv": "2518830d4e8ada9d6361e748839e265c544fbe48c82d45a669b7b06641f486e9",
+  "stress_daily.csv": "2a2b49fb5ee89a749e0869299d0bb4c6857cca912e2f501450882086142b5861",
+  "bitx_zones.json": "5d4b33b58c83190f3e7f8bea90d2494441eeaba36b5e1004b1363fe4d8490dec",
+  "btc_pretrained_zone.npz": "2206e783d61a2b0daee98cb3149c27a4b1e5d5cf611c6b36d38babbf7e23ed6f",
+  "protocol.json": "f1bd00675996d00e2eaa25d59dac8c0c76c95ec03ad09c5ca220d6e865c58b16",
+  "stress_trades.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "source_hashes.json": "b256879de4d45731eaf0317694dad4706e37983379168aa5ade88be8741ab4a4",
+  "baseline_daily.csv": "698e07551cbadc3ca4e3baa6c7d4f2ed436ca48c9ea56513f25a050149159e8f",
+  "validation_trials.json": "6c8881afdb3c1bbe45625e706214060498bb5bfe2a8a1417502304fc245f08a1"
+}

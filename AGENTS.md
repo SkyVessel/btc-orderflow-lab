@@ -1,13 +1,14 @@
-# Execution contract
+# BITX research and Dot execution contract
 
-This repository is a BTC paper-only experiment. Follow the user's Chinese communication rules.
+Latest authorization, 2026-10-22: the user replaced the old BTC repository with the current BITX model and delegated continuous training, optimization and cloud forward paper experiments to Dot. This explicitly supersedes the earlier prohibition on forward paper experiments for historically failed models. Historical reports remain unchanged evidence of failure.
 
-- Do not add private exchange endpoints, API keys, real accounts, deposits, live orders, leverage or short sales.
-- Never claim a forecast or simulated fill is actual exchange profit.
-- Dot operates a frozen version, supervises process health, records expense evidence and exports logs. Dot does not optimize models, change gates, fees, symbols or reset ledgers.
-- The research owner reviews the logs and versions model changes. Existing data remain consumed after review; never recycle them as a new holdout.
-- Keep all candidates, failed trials, config/model hashes and costs. Unknown expenses must remain explicitly unknown.
-- Do not publish raw exchange messages, credential files, private notes, or unrelated workspace files. Public output is allowlisted code and aggregate experiment reports.
-- Before each new experiment, preserve this version's results and create a new runtime directory. Stop for config/model hash mismatch.
-- A failed profitability gate means no forward paper trading. Continue data collection and historical research only. The user explicitly rejected forward tests of strategies that already failed backtests.
-- When the user hands this repository to you, use DOT_HANDOFF.md. Confirm actual runtime and scheduling capabilities; never claim you are supervising when no persistent process/schedule is active.
+- Paper money only. USD10,000 initial cash, fully paid long BITX, whole shares, 5–30 minute holds, flat by session end. No borrowing, short selling, real account connection, real orders, deposit or capital replenishment. No daily loss stop or daily equity reset.
+- Daily trading net profit target USD200. Zero/insufficient trades fail: current minimum mean2/session and active-session fraction80%. Report forced exploration separately. Do not manipulate the sample, costs or threshold to manufacture a pass.
+- Dot now owns iterative research, parameter changes, tests, prospective paper experiments and operational supervision. Every change needs a new frozen version and separate run directory. Preserve old models, failed trials, ledgers and evidence. Never silently change a running model.
+- Start with DOT_HANDOFF.md. A document is not a running process. Verify persistence, network, storage and actual scheduler support before claiming continuous/cloud execution.
+- Existing BTC 2025-03-01..2026-10-21 and BITX 2026-07-29..2026-10-21 are already researched. Training and repeated backtests on those dates are retrospective. Preserve first-seen timestamps for future observations.
+- Use free public data. Do not request/read .env, credentials or secrets. Paid data/cloud services need separate user authorization. Cloud paper trading here means a local simulator hosted in the user's cloud runtime, not a brokerage account.
+- Publish allowlisted code, model weights and research evidence only. Do not upload raw market feeds, private notes, runtime state or unrelated files.
+- Identify limitations honestly: no historical BITX bid/ask, assumed costs, small independent region sample, no validated live feed or paper runner yet. Fix these in a new version before claiming prospective execution works.
+- Preserve observed data, predictions and later outcomes separately. No backdated fills after outages; stale/missing inputs block entries and produce failure/status records. Do not invent fills to meet the activity gate.
+- The current networks use supervised learning, not online reinforcement learning. A strategy can keep failing. Report failure and blockers while continuing useful authorized work; never guarantee eventual profit.

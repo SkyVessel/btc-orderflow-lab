@@ -1,0 +1,254 @@
+[
+  {
+    "policy": {
+      "hold_bars": 1,
+      "threshold": 0.5
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 9999.023348446624,
+      "net_pnl": -0.9766515533756319,
+      "gross_pnl": 1.0196685791015625,
+      "fees": 0.3992639938659668,
+      "spread_slippage": 1.597056138610455,
+      "days": 12,
+      "trades": 1,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": -0.08138762944796933,
+      "best_day": 0.0,
+      "worst_day": -0.9766515533756319,
+      "no_trade_days": 11,
+      "max_drawdown_low_mark": 0.0005924101258131487,
+      "status": "active"
+    }
+  },
+  {
+    "policy": {
+      "hold_bars": 1,
+      "threshold": 0.6
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 10000.0,
+      "net_pnl": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "spread_slippage": 0.0,
+      "days": 12,
+      "trades": 0,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.0,
+      "best_day": 0.0,
+      "worst_day": 0.0,
+      "no_trade_days": 12,
+      "max_drawdown_low_mark": 0.0,
+      "status": "active"
+    }
+  },
+  {
+    "policy": {
+      "hold_bars": 1,
+      "threshold": 0.7
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 10000.0,
+      "net_pnl": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "spread_slippage": 0.0,
+      "days": 12,
+      "trades": 0,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.0,
+      "best_day": 0.0,
+      "worst_day": 0.0,
+      "no_trade_days": 12,
+      "max_drawdown_low_mark": 0.0,
+      "status": "active"
+    }
+  },
+  {
+    "policy": {
+      "hold_bars": 3,
+      "threshold": 0.5
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 10000.0,
+      "net_pnl": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "spread_slippage": 0.0,
+      "days": 12,
+      "trades": 0,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.0,
+      "best_day": 0.0,
+      "worst_day": 0.0,
+      "no_trade_days": 12,
+      "max_drawdown_low_mark": 0.0,
+      "status": "active"
+    }
+  },
+  {
+    "policy": {
+      "hold_bars": 3,
+      "threshold": 0.6
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 10000.0,
+      "net_pnl": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "spread_slippage": 0.0,
+      "days": 12,
+      "trades": 0,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.0,
+      "best_day": 0.0,
+      "worst_day": 0.0,
+      "no_trade_days": 12,
+      "max_drawdown_low_mark": 0.0,
+      "status": "active"
+    }
+  },
+  {
+    "policy": {
+      "hold_bars": 3,
+      "threshold": 0.7
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 10000.0,
+      "net_pnl": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "spread_slippage": 0.0,
+      "days": 12,
+      "trades": 0,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.0,
+      "best_day": 0.0,
+      "worst_day": 0.0,
+      "no_trade_days": 12,
+      "max_drawdown_low_mark": 0.0,
+      "status": "active"
+    }
+  },
+  {
+    "policy": {
+      "hold_bars": 6,
+      "threshold": 0.5
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 10004.50580365432,
+      "net_pnl": 4.505803654319607,
+      "gross_pnl": 6.500053405761719,
+      "fees": 0.39884974228668213,
+      "spread_slippage": 1.5954000091554121,
+      "days": 12,
+      "trades": 1,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.37548363785996725,
+      "best_day": 4.505803654319607,
+      "worst_day": 0.0,
+      "no_trade_days": 11,
+      "max_drawdown_low_mark": 0.0010986515595901437,
+      "status": "active"
+    }
+  },
+  {
+    "policy": {
+      "hold_bars": 6,
+      "threshold": 0.6
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 10000.0,
+      "net_pnl": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "spread_slippage": 0.0,
+      "days": 12,
+      "trades": 0,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.0,
+      "best_day": 0.0,
+      "worst_day": 0.0,
+      "no_trade_days": 12,
+      "max_drawdown_low_mark": 0.0,
+      "status": "active"
+    }
+  },
+  {
+    "policy": {
+      "hold_bars": 6,
+      "threshold": 0.7
+    },
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 10000.0,
+      "net_pnl": 0.0,
+      "gross_pnl": 0.0,
+      "fees": 0.0,
+      "spread_slippage": 0.0,
+      "days": 12,
+      "trades": 0,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "target_rate_wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "mean_daily_pnl": 0.0,
+      "best_day": 0.0,
+      "worst_day": 0.0,
+      "no_trade_days": 12,
+      "max_drawdown_low_mark": 0.0,
+      "status": "active"
+    }
+  }
+]

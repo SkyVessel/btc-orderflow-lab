@@ -1,0 +1,96 @@
+{
+  "version": "bitx-v0.2",
+  "client_date": "2026-10-22",
+  "mode": "historical_paper_only",
+  "free_public_data_only": true,
+  "initial_cash": 10000.0,
+  "daily_target": 200.0,
+  "daily_loss_stop": null,
+  "capital_injections": false,
+  "holding_bars": [
+    1,
+    3,
+    6
+  ],
+  "bar_minutes": 5,
+  "split_sessions": [
+    36,
+    12,
+    12
+  ],
+  "as_of_exclusive": "2026-10-22",
+  "pretrain_end_exclusive": "2026-07-29",
+  "test_status": "Same 12 previously viewed sessions as v0.1; retrospective matched comparison, not unseen holdout",
+  "region_lookback": 6,
+  "region_warmup": 12,
+  "region_max_width_atr": 2.5,
+  "region_expiry_bars": 36,
+  "region_max_touches": 3,
+  "region_touch_cooldown_bars": 3,
+  "pressure_width_atr": 0.25,
+  "label_bars": 6,
+  "success_atr": 1.0,
+  "failure_atr": 1.0,
+  "same_bar_ambiguity": "failure_first",
+  "region_accept_probability": 0.5,
+  "model": {
+    "region_network": "17-32-16-1 sigmoid; early BITX hourly pretrain then 5m finetune",
+    "return_network": "35-32-16-3 regression; all eligible BITX training states, 5/15/30m returns",
+    "region_pretrain_epochs": 60,
+    "region_finetune_epochs": 45,
+    "return_epochs": 60,
+    "l2": 0.001,
+    "learning_rate": 0.001,
+    "batch_size": 128,
+    "seed": 20261023
+  },
+  "training_labels": "All eligible historical state/action returns, not just prior selected trades; learned only on training period",
+  "policy_models": [
+    "hourly_pretrained",
+    "scratch"
+  ],
+  "entry_score_quantiles": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "maximum_candidates": 6,
+  "score_quantile_source": "training-state predicted max net return, never validation/test outcomes",
+  "windows_minutes_ny": [
+    [
+      640,
+      660
+    ],
+    [
+      730,
+      750
+    ],
+    [
+      840,
+      860
+    ]
+  ],
+  "window_policy": "Each of three windows enters at first completed state reaching fixed training score threshold. If none, enter at the deadline as explicitly marked forced exploration; no future best-time selection.",
+  "allocation_fraction": 0.3333333333333333,
+  "max_participation": 0.01,
+  "commission_bps_per_side": 1.0,
+  "half_spread_bps": 3.0,
+  "slippage_bps_per_side": 1.0,
+  "stress_multiplier": 2.0,
+  "execution": "next 5m open; long-only whole shares; planned 5/15/30m exit at bar close; no daily loss stop",
+  "settlement": "No same-day sale-proceeds reuse; settle next regular trading day; no reset within segment",
+  "minimum_trades_per_day_average": 2.0,
+  "minimum_active_day_fraction": 0.8,
+  "selection": "Select highest validation mean daily PnL only among candidates meeting both activity gates. If none, declare activity failure; diagnostic replay picks highest trade count without qualification.",
+  "success_gate": "activity passes AND mean daily net>=200 AND all test days>=200 AND stress total net>0. Report daily-target rate regardless.",
+  "baselines": "Fixed schedule same 3 deadlines/capital/cost, separately 5/15/30m; v0.1 frozen result on same dates",
+  "recognition_metrics": "First-touch per unique zone primary; repeated touches secondary, not independent new zones. Same-zone outcomes purged within split.",
+  "operating_expenses": {
+    "data_purchase": 0.0,
+    "AI": null,
+    "electricity": null,
+    "human_time": null
+  },
+  "historical_quotes": false,
+  "deploy_enabled": false
+}

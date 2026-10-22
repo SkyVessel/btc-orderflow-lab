@@ -1,0 +1,188 @@
+[
+  {
+    "model": "hourly_pretrained",
+    "quantile": 0.25,
+    "threshold": -0.0013735340997622358,
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 9903.751200731629,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -96.24879926837093,
+      "gross_pnl": 22.944332122802226,
+      "fees": 23.838625544018708,
+      "friction": 95.35450584715844,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -8.020733272364245,
+      "best_day": 33.740376375224514,
+      "worst_day": -61.6213940683956,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.018671784976719032,
+      "forced_trades": 1,
+      "forced_net_pnl": 4.002627570882396,
+      "score_selected_net_pnl": -100.25142683925424,
+      "status": "active"
+    },
+    "activity": {
+      "average_trades_per_day": 3.0,
+      "active_day_fraction": 1.0,
+      "passed": true
+    }
+  },
+  {
+    "model": "hourly_pretrained",
+    "quantile": 0.5,
+    "threshold": -0.0007818020516139335,
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 9904.563395142764,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -95.43660485723558,
+      "gross_pnl": 23.846784591674297,
+      "fees": 23.856677126687394,
+      "friction": 95.42671232222716,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -7.953050404769631,
+      "best_day": 33.740376375224514,
+      "worst_day": -61.6213940683956,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.018591233383115607,
+      "forced_trades": 5,
+      "forced_net_pnl": -42.91058696294431,
+      "score_selected_net_pnl": -52.526017894293545,
+      "status": "active"
+    },
+    "activity": {
+      "average_trades_per_day": 3.0,
+      "active_day_fraction": 1.0,
+      "passed": true
+    }
+  },
+  {
+    "model": "hourly_pretrained",
+    "quantile": 0.75,
+    "threshold": 0.0005837117982723794,
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 9944.9122210729,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -55.08777892709986,
+      "gross_pnl": 63.50822448730296,
+      "fees": 23.719198650619507,
+      "friction": 94.87680476378453,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -4.5906482439249885,
+      "best_day": 45.28456922288751,
+      "worst_day": -61.91738264594642,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.016585805923865347,
+      "forced_trades": 16,
+      "forced_net_pnl": -152.24070508923478,
+      "score_selected_net_pnl": 97.15292616213856,
+      "status": "active"
+    },
+    "activity": {
+      "average_trades_per_day": 3.0,
+      "active_day_fraction": 1.0,
+      "passed": true
+    }
+  },
+  {
+    "model": "scratch",
+    "quantile": 0.25,
+    "threshold": -0.0013770976211204267,
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 9945.225048687305,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -54.77495131269461,
+      "gross_pnl": 64.69085884094127,
+      "fees": 23.893159960621567,
+      "friction": 95.57265019301397,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -4.564579276057884,
+      "best_day": 33.740376375224514,
+      "worst_day": -61.73174922412545,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.01622353173158759,
+      "forced_trades": 1,
+      "forced_net_pnl": 4.027335148481143,
+      "score_selected_net_pnl": -58.80228646117166,
+      "status": "active"
+    },
+    "activity": {
+      "average_trades_per_day": 3.0,
+      "active_day_fraction": 1.0,
+      "passed": true
+    }
+  },
+  {
+    "model": "scratch",
+    "quantile": 0.5,
+    "threshold": -0.0008097608285846936,
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 9923.951508138793,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -76.04849186120737,
+      "gross_pnl": 43.39526367187567,
+      "fees": 23.888749717970583,
+      "friction": 95.55500581511606,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -6.337374321767281,
+      "best_day": 51.17104843797824,
+      "worst_day": -61.73174922412545,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.020338339820055586,
+      "forced_trades": 4,
+      "forced_net_pnl": -34.6212752156398,
+      "score_selected_net_pnl": -41.42721664556893,
+      "status": "active"
+    },
+    "activity": {
+      "average_trades_per_day": 3.0,
+      "active_day_fraction": 1.0,
+      "passed": true
+    }
+  },
+  {
+    "model": "scratch",
+    "quantile": 0.75,
+    "threshold": 0.0005879387970752492,
+    "result": {
+      "start_equity": 10000.0,
+      "end_equity": 9945.833508354212,
+      "days": 12,
+      "trades": 36,
+      "net_pnl": -54.16649164578848,
+      "gross_pnl": 64.44484519958496,
+      "fees": 23.722265306842118,
+      "friction": 94.88907153853393,
+      "target_days": 0,
+      "daily_target_rate": 0.0,
+      "mean_daily_pnl": -4.513874303815707,
+      "best_day": 44.48900177584437,
+      "worst_day": -61.91738264594642,
+      "no_trade_days": 0,
+      "low_mark_drawdown": 0.016335976342033223,
+      "forced_trades": 16,
+      "forced_net_pnl": -149.6903221861121,
+      "score_selected_net_pnl": 95.52383054032498,
+      "status": "active"
+    },
+    "activity": {
+      "average_trades_per_day": 3.0,
+      "active_day_fraction": 1.0,
+      "passed": true
+    }
+  }
+]

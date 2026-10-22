@@ -1,0 +1,815 @@
+{
+  "bitx_sources": [
+    {
+      "path": "data/raw/BITX_60d_5m.json",
+      "sha256": "58ae752a7bcbb02cc7a1ef62542b7e25d66e30613aca7e8cb3e62523171f1bd2",
+      "bytes": 429366,
+      "retrieved_utc": "2026-10-22T12:35:08.395449+00:00",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?range=60d&interval=5m&includePrePost=false&events=div%2Csplits",
+      "transport": "curl public endpoint; no credentials",
+      "original_publication_time": null,
+      "vintage": "current retrospective snapshot, revision history unavailable"
+    },
+    {
+      "path": "data/raw/BITX_3mo_1d.json",
+      "sha256": "61c59b7b19f56faa4e7dbd0d1d8c0d82444e24ee4dc46fe6d91fb095762402d3",
+      "bytes": 8509,
+      "retrieved_utc": "2026-10-22T12:35:35.822908+00:00",
+      "url": "https://query2.finance.yahoo.com/v8/finance/chart/BITX?range=3mo&interval=1d&includePrePost=false&events=div%2Csplits",
+      "transport": "curl public endpoint; no credentials",
+      "original_publication_time": null,
+      "vintage": "current retrospective snapshot, revision history unavailable"
+    }
+  ],
+  "btc_reused_sources": [
+    {
+      "path": "btc-orderflow-lab/data/history-v0.3-year/manifest.json",
+      "sha256": "32df797ccfa9edd5aae919df51b5f433da46de472ae6af7687b2266e0b62bac6",
+      "rows": 518400,
+      "source": "Binance BTCUSDT spot 1m",
+      "original_publication_time": null,
+      "reused": true
+    },
+    {
+      "path": "btc-orderflow-lab/data/history-v0.2/manifest.json",
+      "sha256": "ee9e640d05ed7ea7c060c6b970e53d9ccd94d50afc061cb0d4481f1c56224217",
+      "rows": 259200,
+      "source": "Binance BTCUSDT spot 1m",
+      "original_publication_time": null,
+      "reused": true
+    },
+    {
+      "path": "btc-orderflow-lab/data/history-initial/manifest.json",
+      "sha256": "80f033a871e52c8689b457509cad279cfac0fbea624ae1a7cfb8371c8232d4fa",
+      "rows": 86400,
+      "source": "Binance BTCUSDT spot 1m",
+      "original_publication_time": null,
+      "reused": true
+    }
+  ],
+  "bitx_rows": 4680,
+  "bitx_sessions": [
+    "2026-07-29",
+    "2026-07-30",
+    "2026-07-31",
+    "2026-08-03",
+    "2026-08-04",
+    "2026-08-05",
+    "2026-08-06",
+    "2026-08-07",
+    "2026-08-10",
+    "2026-08-11",
+    "2026-08-12",
+    "2026-08-13",
+    "2026-08-14",
+    "2026-08-17",
+    "2026-08-18",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-29",
+    "2026-09-30",
+    "2026-10-01",
+    "2026-10-02",
+    "2026-10-05",
+    "2026-10-06",
+    "2026-10-07",
+    "2026-10-08",
+    "2026-10-09",
+    "2026-10-12",
+    "2026-10-13",
+    "2026-10-14",
+    "2026-10-15",
+    "2026-10-16",
+    "2026-10-19",
+    "2026-10-20",
+    "2026-10-21"
+  ],
+  "bitx_events": {
+    "dividends": {
+      "1787146200": {
+        "amount": 0.013,
+        "date": 1787146200
+      },
+      "1790170200": {
+        "amount": 0.021,
+        "date": 1790170200
+      },
+      "1792589400": {
+        "amount": 0.025,
+        "date": 1792589400
+      }
+    }
+  },
+  "btc_1m_rows": 864000,
+  "btc_5m_rows": 172800,
+  "discarded_bitx_rows": [
+    {
+      "t": 1792612800,
+      "date": "2026-10-21",
+      "minute": 960
+    }
+  ],
+  "historical_quotes_available": false,
+  "historical_L2_available": false,
+  "etf_taker_side_available": false,
+  "btc_quote_currency": "USDT",
+  "etf_quote_currency": "USD",
+  "cross_check": {
+    "max_relative_ohlc_error": 0.0012187969500088158,
+    "daily": [
+      {
+        "date": "2026-07-29",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 8694793,
+        "daily_volume": 8958800
+      },
+      {
+        "date": "2026-07-30",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": -3.987912667147153e-05,
+          "l": 0.0,
+          "c": 0.0008070439814724661
+        },
+        "intraday_volume": 5926835,
+        "daily_volume": 6226600
+      },
+      {
+        "date": "2026-07-31",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0008576525739882879
+        },
+        "intraday_volume": 11438118,
+        "daily_volume": 11748400
+      },
+      {
+        "date": "2026-08-03",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": -8.729474822333216e-06,
+          "c": 0.0004170237311398317
+        },
+        "intraday_volume": 5983198,
+        "daily_volume": 6176700
+      },
+      {
+        "date": "2026-08-04",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0004114535739554448
+        },
+        "intraday_volume": 6085963,
+        "daily_volume": 6326100
+      },
+      {
+        "date": "2026-08-05",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": -4.03188119819653e-05,
+          "l": 0.0,
+          "c": -0.00040388646160716135
+        },
+        "intraday_volume": 6762309,
+        "daily_volume": 6952200
+      },
+      {
+        "date": "2026-08-06",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.00040950978094156376
+        },
+        "intraday_volume": 5716204,
+        "daily_volume": 5806800
+      },
+      {
+        "date": "2026-08-07",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 6800314,
+        "daily_volume": 6947700
+      },
+      {
+        "date": "2026-08-10",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 7196764,
+        "daily_volume": 7409300
+      },
+      {
+        "date": "2026-08-11",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 6676842,
+        "daily_volume": 6856800
+      },
+      {
+        "date": "2026-08-12",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 2.5629845312069577e-05,
+          "c": -0.0004248185426042328
+        },
+        "intraday_volume": 6382026,
+        "daily_volume": 6479900
+      },
+      {
+        "date": "2026-08-13",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0008496370852083546
+        },
+        "intraday_volume": 5894127,
+        "daily_volume": 6063600
+      },
+      {
+        "date": "2026-08-14",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": -4.3751124566671074e-05,
+          "c": -7.767631948529807e-05
+        },
+        "intraday_volume": 6248755,
+        "daily_volume": 6457500
+      },
+      {
+        "date": "2026-08-17",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.00041289137759470407
+        },
+        "intraday_volume": 9287173,
+        "daily_volume": 9550100
+      },
+      {
+        "date": "2026-08-18",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.00041746643902729197,
+          "c": 0.0004091746588916756
+        },
+        "intraday_volume": 6004895,
+        "daily_volume": 6206200
+      },
+      {
+        "date": "2026-08-19",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 24732580,
+        "daily_volume": 26015500
+      },
+      {
+        "date": "2026-08-20",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0006509944942071355
+        },
+        "intraday_volume": 23003480,
+        "daily_volume": 23719300
+      },
+      {
+        "date": "2026-08-21",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": -5.644970439866448e-06,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 30055979,
+        "daily_volume": 31967300
+      },
+      {
+        "date": "2026-08-24",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0005571157914646685
+        },
+        "intraday_volume": 26111679,
+        "daily_volume": 26410700
+      },
+      {
+        "date": "2026-08-25",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0005549516441619717
+        },
+        "intraday_volume": 16238240,
+        "daily_volume": 16907600
+      },
+      {
+        "date": "2026-08-26",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 7948778,
+        "daily_volume": 8732500
+      },
+      {
+        "date": "2026-08-27",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 13427680,
+        "daily_volume": 13737800
+      },
+      {
+        "date": "2026-08-28",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 15795254,
+        "daily_volume": 16117200
+      },
+      {
+        "date": "2026-08-31",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0005574263424825698
+        },
+        "intraday_volume": 6646434,
+        "daily_volume": 6859300
+      },
+      {
+        "date": "2026-09-01",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0005824245100407577
+        },
+        "intraday_volume": 8786137,
+        "daily_volume": 9127500
+      },
+      {
+        "date": "2026-09-02",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": -5.9993753858123e-06,
+          "c": 0.0011641709783698495
+        },
+        "intraday_volume": 5826700,
+        "daily_volume": 5971400
+      },
+      {
+        "date": "2026-09-03",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0005656237957705201,
+          "c": 0.0002606444570938393
+        },
+        "intraday_volume": 18097664,
+        "daily_volume": 19241000
+      },
+      {
+        "date": "2026-09-04",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 2.267953280155055e-05,
+          "c": -0.0005479577469499342
+        },
+        "intraday_volume": 13757820,
+        "daily_volume": 14368200
+      },
+      {
+        "date": "2026-09-08",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0002843131365464213
+        },
+        "intraday_volume": 9344084,
+        "daily_volume": 9524400
+      },
+      {
+        "date": "2026-09-09",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0003089075584038481
+        },
+        "intraday_volume": 9432107,
+        "daily_volume": 9602200
+      },
+      {
+        "date": "2026-09-10",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": -1.745170047373623e-05,
+          "l": 0.0,
+          "c": -0.000588941646138541
+        },
+        "intraday_volume": 9243732,
+        "daily_volume": 9471600
+      },
+      {
+        "date": "2026-09-11",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": -1.648974327461694e-05,
+          "l": 0.0,
+          "c": 0.0002935502386984812
+        },
+        "intraday_volume": 12721560,
+        "daily_volume": 12894700
+      },
+      {
+        "date": "2026-09-14",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0002472369713835132
+        },
+        "intraday_volume": 9544498,
+        "daily_volume": 9985300
+      },
+      {
+        "date": "2026-09-15",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.00030334714232183035
+        },
+        "intraday_volume": 18640135,
+        "daily_volume": 19245300
+      },
+      {
+        "date": "2026-09-16",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0012187969500088158
+        },
+        "intraday_volume": 8612867,
+        "daily_volume": 8879300
+      },
+      {
+        "date": "2026-09-17",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 7031399,
+        "daily_volume": 7190100
+      },
+      {
+        "date": "2026-09-18",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0005347715761410132
+        },
+        "intraday_volume": 14020220,
+        "daily_volume": 14362600
+      },
+      {
+        "date": "2026-09-21",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.00023675874121675822
+        },
+        "intraday_volume": 16382574,
+        "daily_volume": 16972400
+      },
+      {
+        "date": "2026-09-22",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 10865388,
+        "daily_volume": 11145700
+      },
+      {
+        "date": "2026-09-23",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0004966876279205445
+        },
+        "intraday_volume": 11690106,
+        "daily_volume": 11924100
+      },
+      {
+        "date": "2026-09-24",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": -4.883413663892e-06,
+          "l": 0.0,
+          "c": -0.0004982675153908378
+        },
+        "intraday_volume": 11923890,
+        "daily_volume": 12053700
+      },
+      {
+        "date": "2026-09-25",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0005042979788356661
+        },
+        "intraday_volume": 8549814,
+        "daily_volume": 8756900
+      },
+      {
+        "date": "2026-09-28",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.000512306795456885
+        },
+        "intraday_volume": 10262745,
+        "daily_volume": 10360700
+      },
+      {
+        "date": "2026-09-29",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": -5.248674783908669e-06,
+          "c": 0.0
+        },
+        "intraday_volume": 6750408,
+        "daily_volume": 6849600
+      },
+      {
+        "date": "2026-09-30",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 5.1920637444968776e-06,
+          "c": 0.0002551894194824378
+        },
+        "intraday_volume": 8769735,
+        "daily_volume": 8877000
+      },
+      {
+        "date": "2026-10-01",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -9.949322004443317e-05
+        },
+        "intraday_volume": 9609421,
+        "daily_volume": 9768800
+      },
+      {
+        "date": "2026-10-02",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0002509618849123596
+        },
+        "intraday_volume": 10862273,
+        "daily_volume": 11077500
+      },
+      {
+        "date": "2026-10-05",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.00048615600535728554
+        },
+        "intraday_volume": 12343512,
+        "daily_volume": 12582100
+      },
+      {
+        "date": "2026-10-06",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.000487816043016398
+        },
+        "intraday_volume": 8007136,
+        "daily_volume": 8119000
+      },
+      {
+        "date": "2026-10-07",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0002573889879921021
+        },
+        "intraday_volume": 8402081,
+        "daily_volume": 8583200
+      },
+      {
+        "date": "2026-10-08",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": -2.2274674956856977e-05,
+          "c": -0.0005359179508901413
+        },
+        "intraday_volume": 11476609,
+        "daily_volume": 11914900
+      },
+      {
+        "date": "2026-10-09",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 5.2616512944414495e-06,
+          "c": 0.0
+        },
+        "intraday_volume": 7302350,
+        "daily_volume": 7433000
+      },
+      {
+        "date": "2026-10-12",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0002617361605632418
+        },
+        "intraday_volume": 7275126,
+        "daily_volume": 7560200
+      },
+      {
+        "date": "2026-10-13",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": -5.157626304708174e-06,
+          "l": 0.0,
+          "c": 0.0005181465946710873
+        },
+        "intraday_volume": 8655120,
+        "daily_volume": 8781000
+      },
+      {
+        "date": "2026-10-14",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0005373577944040031
+        },
+        "intraday_volume": 8270410,
+        "daily_volume": 8408000
+      },
+      {
+        "date": "2026-10-15",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0005307977070510006
+        },
+        "intraday_volume": 10829180,
+        "daily_volume": 10971500
+      },
+      {
+        "date": "2026-10-16",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0005414309287280483
+        },
+        "intraday_volume": 9724375,
+        "daily_volume": 9988800
+      },
+      {
+        "date": "2026-10-19",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": 0.0
+        },
+        "intraday_volume": 5320139,
+        "daily_volume": 5410200
+      },
+      {
+        "date": "2026-10-20",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0,
+          "l": 0.0,
+          "c": -0.0005282741004024594
+        },
+        "intraday_volume": 7027191,
+        "daily_volume": 7147300
+      },
+      {
+        "date": "2026-10-21",
+        "relative_ohlc_errors": {
+          "o": 0.0,
+          "h": 0.0002495836542799612,
+          "l": 0.0,
+          "c": null
+        },
+        "intraday_volume": 7999075,
+        "daily_volume": 8064294
+      }
+    ],
+    "missing_daily_fields": [
+      {
+        "date": "2026-10-21",
+        "field": "c"
+      }
+    ],
+    "note": "Same provider separate interval; not independent exchange verification. Intraday volume may omit auction trades."
+  }
+}

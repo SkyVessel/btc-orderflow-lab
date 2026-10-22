@@ -1,0 +1,14 @@
+{
+  "hourly_pretraining": 192,
+  "registered_regions": 709,
+  "total_touches": 986,
+  "labelled_regions": 865,
+  "unique_labelled_regions": 422,
+  "first_touch_labels": 422,
+  "incomplete_region_labels": 121,
+  "hourly_incomplete_labels": 85,
+  "train_regions": 535,
+  "train_states": 2160,
+  "all_states": 3600,
+  "state_action_labels": 10800
+}

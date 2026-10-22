@@ -1,0 +1,8 @@
+{
+  "btc_pretrain": 1886,
+  "bitx_train": 163,
+  "bitx_validation": 65,
+  "bitx_test": 43,
+  "btc_incomplete_excluded": 235,
+  "bitx_incomplete_excluded": 34
+}

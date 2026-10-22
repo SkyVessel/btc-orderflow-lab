@@ -1,0 +1,22 @@
+{
+  "reproduction": {
+    "report.json": "exact_match_except_runtime",
+    "all_validation_trials.json": "exact_match_except_runtime",
+    "selection_before_test.json": "exact_match_except_runtime",
+    "sample_counts_before_training.json": "exact_match_except_runtime",
+    "test_orders.json": "exact_match_except_runtime",
+    "hourly_pretrained_returns.npz": "all_parameters_exact_match",
+    "scratch_returns.npz": "all_parameters_exact_match",
+    "hourly_pretrained_region.npz": "all_parameters_exact_match",
+    "scratch_region.npz": "all_parameters_exact_match"
+  },
+  "unit_tests_passed": 22,
+  "source_hashes": "passed",
+  "artifact_hashes": "passed",
+  "accounting_and_settlement": "passed",
+  "frozen_stress_actions": "passed",
+  "exploration_separation": "passed",
+  "activity_gate": "passed",
+  "profit_goal": "failed",
+  "new_unseen_intraday_sessions": 0
+}

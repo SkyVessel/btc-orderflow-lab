@@ -1,29 +1,23 @@
-# 数据与费用来源
+# 数据获取与复现范围
 
-核实日期：2026-10-22。免费 API 的可访问性不代表真实交易资格。
+当前权重可离线加载；22项离线测试不需要行情或账户。`tools/check_release.py`检查原v0.2文件/研究源代码哈希，并检查权重推理。
 
-| 用途 | 官方来源 |
-|---|---|
-| 公共只读 REST / WebSocket，无 API key | https://github.com/binance/binance-spot-api-docs/blob/master/faqs/market_data_only.md |
-| 分钟 K 线字段、主动买入量 | https://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints |
-| 逐笔成交和 20 档快照 | https://developers.binance.com/docs/binance-spot-api-docs/web-socket-streams |
-| Binance 现货普通费率 0.100% / 0.100% | https://www.binance.com/en/fee/trading |
-| Kraken 当前最低档 Spot Crypto 0.40% maker / 0.80% taker | https://www.kraken.com/features/fee-schedule |
-| Fabio 公开方法 | https://worldclassedge.app/student-area/the-complete-order-flow/intro |
+原始行情未发布：公开接口可读取不自动授予再分发权。`provenance`保存来源、采集时间和原文件哈希。旧报告中的原始数据相对路径表示原研究环境，克隆后并不存在对应原始文件。
 
-初期从 Kraken 切换为 Binance BTC/USDT，是因为当前公开现货费率更适合检验日内策略。
-没有把 Binance 费率套在 Kraken 成交上，也没有把 USDT 当成无风险美元。
-所有网络端点是公开行情域名；软件不接受交易密钥。
+## 获取下一轮数据
 
-历史：87 个请求覆盖 60 个 UTC 日、86,400 根 1 分钟 K 线。保留每页原文、URL、采集时间和 SHA-256。
-原始响应保存在本地 data/，发布汇总与哈希。数据修订时保留版本。
-实时：订阅 trade、depth20@100ms、kline_1m，保存小时分割 gzip JSONL 原始消息与本地收到时间。
-每分钟交易所完整 K 线用于策略，逐笔用于大单/CVD研究，20档快照用于模拟成交。
-盘口快照没有交易所事件时间，收到时间是接入时点，不能据此精确测量交易所到本机延迟。
-逐笔有事件时间和成交时间。跨流到达顺序可能不同，分钟日志中的逐笔汇总标注为“前次 K 线送达以来”。
+`python tools/download_public.py --output data/new-snapshot`从Yahoo取近期BITX五分钟数据，从Binance market-data-only域名取对应BTCUSDT五分钟数据（含真实主动买入量），保存本地原响应、URL、获取时间和哈希。网络代理出错且允许直连时，可加`--direct-network`，不修改系统代理。
 
-Big Trade 是单笔成交额筛选，不是机构身份识别，也不是完整主动订单扫单重建。
-不把 MBO、完整撤单、隐藏止损或全市场流动性标成已采集。
+下载器排除当前未结束交易日、缺失和非完整390分钟交易日，排除名单进入manifest；下一轮历史基线只评价这些完整交易日。前瞻的应交易日和故障日需要另外按交易所日历统计，不能照搬该排除方法。
 
-网络直连选项仅禁用本进程的环境代理，不切换地区、不绕过服务的访问限制。
-若接口不向所在地区提供服务，停止并选择允许的数据源，重新登记标的/费率/数据协议。
+`python tools/train_baseline.py --data data/new-snapshot --output results/new-baseline`使用新快照运行v0.2结构的scratch基线：按时间60%/20%/20%切分，3个固定阈值，先锁定验证选择再评价尾段，保留全部候选与成本账本。它不复用小时预训练、不改变原权重、没有自动优化或前瞻交易。超过API历史保留期的数据未必能补回。
+
+任何新下载都是当前修订版本；即使日期相同，也要记录价格/分红调整和哈希差异。该基线的末段默认标为历史研究，不声称独立未见留出。
+
+## 精确复现旧实验
+
+原`v2/run_v2.py`依赖旧`data/bitx_5m.csv.gz`、`data/btc_5m.csv.gz`、原`data/manifest.json`及`data/v0.2/raw/`四份Yahoo响应。路径和哈希见provenance。必须取得并验证原快照，不能拿新下载冒充。`v2/verify_v2.py`还需要第二个完整复现目录；公开包不包含它。仓库保存的`v0.2-verification.json`是原环境的验证证据，新的云端不能仅因该文件存在而宣称重跑通过。
+
+## 实时数据缺口
+
+目前无BITX已验证实时bid/ask，没有实时执行器。Yahoo的延迟、断流、修订必须实测；不能用最新显示价假定可成交。BTC公开成交/盘口仅代表该交易所。Alpaca免费IEX数据覆盖单一交易所、需账户密钥；当前未接入。免费公开数据路线先继续，付费或账户接入需独立授权。
