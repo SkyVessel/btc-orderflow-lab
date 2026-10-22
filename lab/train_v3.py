@@ -49,7 +49,7 @@ def checks_for(selected,test,stress,metrics,baseline,p):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--data",default="data/history-v0.3")
+    parser.add_argument("--data",default="data/history-v0.3-year")
     parser.add_argument("--protocol",default="research/v0.3/protocol.json")
     parser.add_argument("--output",default="research/v0.3/results")
     args = parser.parse_args()
