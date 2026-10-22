@@ -14,7 +14,7 @@ BASE = "https://data-api.binance.vision/api/v3/"
 
 
 def get_public(endpoint, params=None, direct=False):
-    if endpoint not in {"klines", "exchangeInfo", "time"}:
+    if endpoint not in {"klines", "aggTrades", "exchangeInfo", "time"}:
         raise ValueError("Read-only market endpoint allowlist")
     url = BASE + endpoint + "?" + urllib.parse.urlencode(params or {})
     opener = urllib.request.build_opener(urllib.request.ProxyHandler({}) if direct else urllib.request.ProxyHandler())

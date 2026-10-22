@@ -1,0 +1,237 @@
+{
+  "kind": "Raw aggregate-trade vs minute-volume audit",
+  "selection": "Evenly spaced signal events, strongest selling minute, no labels used",
+  "all_passed": true,
+  "minutes": [
+    {
+      "minute_ms": 1756389000000,
+      "utc": "2025-08-28T13:50:00+00:00",
+      "expected": {
+        "volume": 217.27073,
+        "taker_buy": 29.178,
+        "delta": -158.91473,
+        "individual_matches": 11810
+      },
+      "observed": {
+        "aggregate_trades": 4301,
+        "individual_matches": 11810,
+        "volume": 217.27073,
+        "taker_buy": 29.178,
+        "delta": -158.91473
+      },
+      "volume_error": 0.0,
+      "taker_buy_error": 0.0,
+      "passed": true,
+      "provenance": [
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&startTime=1756389000000&endTime=1756389059999&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:52.697469+00:00",
+          "sha256": "c296b2e95446356da20a107ff71061ba818fb55fad25330755160da883d0fd8b",
+          "rows": 1000,
+          "file": "000.json"
+        },
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&fromId=3662383389&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:53.677049+00:00",
+          "sha256": "2af031c14648d657d8ceef22d029d426ba303f9026f8b0962384c6b214d0018a",
+          "rows": 1000,
+          "file": "001.json"
+        },
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&fromId=3662384389&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:54.706990+00:00",
+          "sha256": "d8803a6415717ca10cf48f884e2006bc86a6add2025dced4a22c75832c664338",
+          "rows": 1000,
+          "file": "002.json"
+        },
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&fromId=3662385389&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:56.013073+00:00",
+          "sha256": "a4f678cde737d199ea33ae2c8ed03212669bf5abf0c77d61fe5e65dfd2801c63",
+          "rows": 1000,
+          "file": "003.json"
+        },
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&fromId=3662386389&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:57.401771+00:00",
+          "sha256": "153a24cb91b731962e895fabfeeece42501df7a6740cb4ade30aa84ccadbd725",
+          "rows": 1000,
+          "file": "004.json"
+        }
+      ],
+      "scope": "Aggregate fills at same price/time/taker order; not individual orders or historical L2"
+    },
+    {
+      "minute_ms": 1759377660000,
+      "utc": "2025-10-02T04:01:00+00:00",
+      "expected": {
+        "volume": 12.73542,
+        "taker_buy": 0.24935,
+        "delta": -12.23672,
+        "individual_matches": 1281
+      },
+      "observed": {
+        "aggregate_trades": 465,
+        "individual_matches": 1281,
+        "volume": 12.73542,
+        "taker_buy": 0.24935,
+        "delta": -12.23672
+      },
+      "volume_error": 0.0,
+      "taker_buy_error": 0.0,
+      "passed": true,
+      "provenance": [
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&startTime=1759377660000&endTime=1759377719999&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:51.385964+00:00",
+          "sha256": "1a2b60326beb0b2f49dd3a903bc360982234db49904b4ae76d7fd80a0ed6838b",
+          "rows": 465,
+          "file": "000.json"
+        }
+      ],
+      "scope": "Aggregate fills at same price/time/taker order; not individual orders or historical L2"
+    },
+    {
+      "minute_ms": 1763646480000,
+      "utc": "2025-11-20T13:48:00+00:00",
+      "expected": {
+        "volume": 40.2942,
+        "taker_buy": 9.21801,
+        "delta": -21.858179999999997,
+        "individual_matches": 6605
+      },
+      "observed": {
+        "aggregate_trades": 1887,
+        "individual_matches": 6605,
+        "volume": 40.2942,
+        "taker_buy": 9.21801,
+        "delta": -21.85818
+      },
+      "volume_error": 0.0,
+      "taker_buy_error": 0.0,
+      "passed": true,
+      "provenance": [
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&startTime=1763646480000&endTime=1763646539999&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:52.682180+00:00",
+          "sha256": "2a59394ce93e34293bc797ac86f0f165b800100427f82a4002d71cae562cdb4a",
+          "rows": 1000,
+          "file": "000.json"
+        },
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&fromId=3752901108&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:53.689353+00:00",
+          "sha256": "d289ea693d3343c8a399dd208a37f112ca453f59f3f4e13a003507c16a4a3c22",
+          "rows": 1000,
+          "file": "001.json"
+        }
+      ],
+      "scope": "Aggregate fills at same price/time/taker order; not individual orders or historical L2"
+    },
+    {
+      "minute_ms": 1766423460000,
+      "utc": "2025-12-22T17:11:00+00:00",
+      "expected": {
+        "volume": 42.68201,
+        "taker_buy": 12.12415,
+        "delta": -18.433709999999998,
+        "individual_matches": 9857
+      },
+      "observed": {
+        "aggregate_trades": 2295,
+        "individual_matches": 9857,
+        "volume": 42.68201,
+        "taker_buy": 12.12415,
+        "delta": -18.43371
+      },
+      "volume_error": 0.0,
+      "taker_buy_error": 0.0,
+      "passed": true,
+      "provenance": [
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&startTime=1766423460000&endTime=1766423519999&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:53.309189+00:00",
+          "sha256": "38616ae472fc583b487c9625ba28f50a4a3b025892e352ac88ce9e2355e54051",
+          "rows": 1000,
+          "file": "000.json"
+        },
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&fromId=3793132628&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:54.122159+00:00",
+          "sha256": "86345e382a6d668f3150c66b461c8cae312d05a28b9a380eabd11f8fdf72db3d",
+          "rows": 1000,
+          "file": "001.json"
+        },
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&fromId=3793133628&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:55.741056+00:00",
+          "sha256": "0d61f956103316d02c419cac452e2912ec806f98324fd5111fc5e7f6c3211355",
+          "rows": 1000,
+          "file": "002.json"
+        }
+      ],
+      "scope": "Aggregate fills at same price/time/taker order; not individual orders or historical L2"
+    },
+    {
+      "minute_ms": 1769083320000,
+      "utc": "2026-01-22T12:02:00+00:00",
+      "expected": {
+        "volume": 19.01087,
+        "taker_buy": 1.13023,
+        "delta": -16.750410000000002,
+        "individual_matches": 1655
+      },
+      "observed": {
+        "aggregate_trades": 755,
+        "individual_matches": 1655,
+        "volume": 19.01087,
+        "taker_buy": 1.13023,
+        "delta": -16.75041
+      },
+      "volume_error": 0.0,
+      "taker_buy_error": 0.0,
+      "passed": true,
+      "provenance": [
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&startTime=1769083320000&endTime=1769083379999&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:54.461439+00:00",
+          "sha256": "4c7e325b04fc517cd7a253dcd13b7a9278835917c75ac9b1bd672abb9ad3cd23",
+          "rows": 755,
+          "file": "000.json"
+        }
+      ],
+      "scope": "Aggregate fills at same price/time/taker order; not individual orders or historical L2"
+    },
+    {
+      "minute_ms": 1771762260000,
+      "utc": "2026-02-22T12:11:00+00:00",
+      "expected": {
+        "volume": 26.38941,
+        "taker_buy": 1.60326,
+        "delta": -23.18289,
+        "individual_matches": 3955
+      },
+      "observed": {
+        "aggregate_trades": 825,
+        "individual_matches": 3955,
+        "volume": 26.38941,
+        "taker_buy": 1.60326,
+        "delta": -23.18289
+      },
+      "volume_error": 0.0,
+      "taker_buy_error": 0.0,
+      "passed": true,
+      "provenance": [
+        {
+          "url": "https://data-api.binance.vision/api/v3/aggTrades?symbol=BTCUSDT&startTime=1771762260000&endTime=1771762319999&limit=1000",
+          "retrieved_utc": "2026-10-22T09:08:55.902847+00:00",
+          "sha256": "378916c3acd49165be2084c7923bdb9ebfd617f75006235bb02214396c0f205b",
+          "rows": 825,
+          "file": "000.json"
+        }
+      ],
+      "scope": "Aggregate fills at same price/time/taker order; not individual orders or historical L2"
+    }
+  ],
+  "source": "https://developers.binance.com/docs/binance-spot-api-docs/rest-api/market-data-endpoints"
+}
